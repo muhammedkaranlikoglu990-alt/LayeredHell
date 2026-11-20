@@ -1,0 +1,2724 @@
+{
+  "count": 9,
+  "grid": 4,
+  "atlases": {
+    "ENV_STRUCT_2K": {
+      "atlas": "ENV_STRUCT_2K",
+      "file": "ENV_STRUCT_2K.png",
+      "material": "M_ENV_STRUCT_2K",
+      "size": 2048,
+      "grid": 4,
+      "cell_size": 512,
+      "mode": "tile",
+      "mpt": 2.0,
+      "bytes": 313468,
+      "seconds": 0.662,
+      "tiles": [
+        {
+          "index": 0,
+          "tag": "concrete_raw",
+          "col": 0,
+          "row_from_top": 0,
+          "uv_rect": [
+            0.0,
+            0.75,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            0,
+            0,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 1,
+          "tag": "concrete_dark",
+          "col": 1,
+          "row_from_top": 0,
+          "uv_rect": [
+            0.25,
+            0.75,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            512,
+            0,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 2,
+          "tag": "brick_red",
+          "col": 2,
+          "row_from_top": 0,
+          "uv_rect": [
+            0.5,
+            0.75,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            1024,
+            0,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 3,
+          "tag": "plaster_white",
+          "col": 3,
+          "row_from_top": 0,
+          "uv_rect": [
+            0.75,
+            0.75,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            1536,
+            0,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 4,
+          "tag": "plaster_dirty",
+          "col": 0,
+          "row_from_top": 1,
+          "uv_rect": [
+            0.0,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            0,
+            512,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 5,
+          "tag": "wallpaper_stripe",
+          "col": 1,
+          "row_from_top": 1,
+          "uv_rect": [
+            0.25,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            512,
+            512,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 6,
+          "tag": "wallpaper_floral",
+          "col": 2,
+          "row_from_top": 1,
+          "uv_rect": [
+            0.5,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            1024,
+            512,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 7,
+          "tag": "tile_white",
+          "col": 3,
+          "row_from_top": 1,
+          "uv_rect": [
+            0.75,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            1536,
+            512,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 8,
+          "tag": "tile_checker",
+          "col": 0,
+          "row_from_top": 2,
+          "uv_rect": [
+            0.0,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            0,
+            1024,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 9,
+          "tag": "parquet_oak",
+          "col": 1,
+          "row_from_top": 2,
+          "uv_rect": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            512,
+            1024,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 10,
+          "tag": "carpet_grey",
+          "col": 2,
+          "row_from_top": 2,
+          "uv_rect": [
+            0.5,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            1024,
+            1024,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 11,
+          "tag": "carpet_red",
+          "col": 3,
+          "row_from_top": 2,
+          "uv_rect": [
+            0.75,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            1536,
+            1024,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 12,
+          "tag": "metal_plate",
+          "col": 0,
+          "row_from_top": 3,
+          "uv_rect": [
+            0.0,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            0,
+            1536,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 13,
+          "tag": "marble_white",
+          "col": 1,
+          "row_from_top": 3,
+          "uv_rect": [
+            0.25,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            512,
+            1536,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 14,
+          "tag": "ceiling_panel",
+          "col": 2,
+          "row_from_top": 3,
+          "uv_rect": [
+            0.5,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            1024,
+            1536,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 15,
+          "tag": "wall_damaged",
+          "col": 3,
+          "row_from_top": 3,
+          "uv_rect": [
+            0.75,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            1536,
+            1536,
+            512,
+            512
+          ]
+        }
+      ]
+    },
+    "ENV_MAT_2K": {
+      "atlas": "ENV_MAT_2K",
+      "file": "ENV_MAT_2K.png",
+      "material": "M_ENV_MAT_2K",
+      "size": 2048,
+      "grid": 4,
+      "cell_size": 512,
+      "mode": "tile",
+      "mpt": 1.0,
+      "bytes": 283465,
+      "seconds": 0.905,
+      "tiles": [
+        {
+          "index": 0,
+          "tag": "wood_dark",
+          "col": 0,
+          "row_from_top": 0,
+          "uv_rect": [
+            0.0,
+            0.75,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            0,
+            0,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 1,
+          "tag": "wood_light",
+          "col": 1,
+          "row_from_top": 0,
+          "uv_rect": [
+            0.25,
+            0.75,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            512,
+            0,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 2,
+          "tag": "wood_plank_worn",
+          "col": 2,
+          "row_from_top": 0,
+          "uv_rect": [
+            0.5,
+            0.75,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            1024,
+            0,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 3,
+          "tag": "fabric_blue",
+          "col": 3,
+          "row_from_top": 0,
+          "uv_rect": [
+            0.75,
+            0.75,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            1536,
+            0,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 4,
+          "tag": "fabric_red",
+          "col": 0,
+          "row_from_top": 1,
+          "uv_rect": [
+            0.0,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            0,
+            512,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 5,
+          "tag": "fabric_green",
+          "col": 1,
+          "row_from_top": 1,
+          "uv_rect": [
+            0.25,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            512,
+            512,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 6,
+          "tag": "leather_brown",
+          "col": 2,
+          "row_from_top": 1,
+          "uv_rect": [
+            0.5,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            1024,
+            512,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 7,
+          "tag": "leather_black",
+          "col": 3,
+          "row_from_top": 1,
+          "uv_rect": [
+            0.75,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            1536,
+            512,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 8,
+          "tag": "plastic_white",
+          "col": 0,
+          "row_from_top": 2,
+          "uv_rect": [
+            0.0,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            0,
+            1024,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 9,
+          "tag": "plastic_black",
+          "col": 1,
+          "row_from_top": 2,
+          "uv_rect": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            512,
+            1024,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 10,
+          "tag": "rubber",
+          "col": 2,
+          "row_from_top": 2,
+          "uv_rect": [
+            0.5,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            1024,
+            1024,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 11,
+          "tag": "glass_dirty",
+          "col": 3,
+          "row_from_top": 2,
+          "uv_rect": [
+            0.75,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            1536,
+            1024,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 12,
+          "tag": "steel_brushed",
+          "col": 0,
+          "row_from_top": 3,
+          "uv_rect": [
+            0.0,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            0,
+            1536,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 13,
+          "tag": "rust_heavy",
+          "col": 1,
+          "row_from_top": 3,
+          "uv_rect": [
+            0.25,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            512,
+            1536,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 14,
+          "tag": "painted_metal_green",
+          "col": 2,
+          "row_from_top": 3,
+          "uv_rect": [
+            0.5,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            1024,
+            1536,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 15,
+          "tag": "painted_metal_blue",
+          "col": 3,
+          "row_from_top": 3,
+          "uv_rect": [
+            0.75,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            1536,
+            1536,
+            512,
+            512
+          ]
+        }
+      ]
+    },
+    "ENV_CITY_2K": {
+      "atlas": "ENV_CITY_2K",
+      "file": "ENV_CITY_2K.png",
+      "material": "M_ENV_CITY_2K",
+      "size": 2048,
+      "grid": 4,
+      "cell_size": 512,
+      "mode": "tile",
+      "mpt": 4.0,
+      "bytes": 282043,
+      "seconds": 0.734,
+      "tiles": [
+        {
+          "index": 0,
+          "tag": "asphalt",
+          "col": 0,
+          "row_from_top": 0,
+          "uv_rect": [
+            0.0,
+            0.75,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            0,
+            0,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 1,
+          "tag": "facade_glass_blue",
+          "col": 1,
+          "row_from_top": 0,
+          "uv_rect": [
+            0.25,
+            0.75,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            512,
+            0,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 2,
+          "tag": "facade_glass_dark",
+          "col": 2,
+          "row_from_top": 0,
+          "uv_rect": [
+            0.5,
+            0.75,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            1024,
+            0,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 3,
+          "tag": "facade_concrete",
+          "col": 3,
+          "row_from_top": 0,
+          "uv_rect": [
+            0.75,
+            0.75,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            1536,
+            0,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 4,
+          "tag": "facade_brick",
+          "col": 0,
+          "row_from_top": 1,
+          "uv_rect": [
+            0.0,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            0,
+            512,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 5,
+          "tag": "facade_stone",
+          "col": 1,
+          "row_from_top": 1,
+          "uv_rect": [
+            0.25,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            512,
+            512,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 6,
+          "tag": "paint_yellow",
+          "col": 2,
+          "row_from_top": 1,
+          "uv_rect": [
+            0.5,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            1024,
+            512,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 7,
+          "tag": "paint_white",
+          "col": 3,
+          "row_from_top": 1,
+          "uv_rect": [
+            0.75,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            1536,
+            512,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 8,
+          "tag": "car_red",
+          "col": 0,
+          "row_from_top": 2,
+          "uv_rect": [
+            0.0,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            0,
+            1024,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 9,
+          "tag": "car_blue",
+          "col": 1,
+          "row_from_top": 2,
+          "uv_rect": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            512,
+            1024,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 10,
+          "tag": "car_black",
+          "col": 2,
+          "row_from_top": 2,
+          "uv_rect": [
+            0.5,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            1024,
+            1024,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 11,
+          "tag": "car_white",
+          "col": 3,
+          "row_from_top": 2,
+          "uv_rect": [
+            0.75,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            1536,
+            1024,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 12,
+          "tag": "car_green",
+          "col": 0,
+          "row_from_top": 3,
+          "uv_rect": [
+            0.0,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            0,
+            1536,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 13,
+          "tag": "roof_gravel",
+          "col": 1,
+          "row_from_top": 3,
+          "uv_rect": [
+            0.25,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            512,
+            1536,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 14,
+          "tag": "grass_dead",
+          "col": 2,
+          "row_from_top": 3,
+          "uv_rect": [
+            0.5,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            1024,
+            1536,
+            512,
+            512
+          ]
+        },
+        {
+          "index": 15,
+          "tag": "steel_dark",
+          "col": 3,
+          "row_from_top": 3,
+          "uv_rect": [
+            0.75,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            1536,
+            1536,
+            512,
+            512
+          ]
+        }
+      ]
+    },
+    "HERO_WEAPONS_1K": {
+      "atlas": "HERO_WEAPONS_1K",
+      "file": "HERO_WEAPONS_1K.png",
+      "material": "M_HERO_WEAPONS_1K",
+      "size": 1024,
+      "grid": 4,
+      "cell_size": 256,
+      "mode": "cell",
+      "mpt": 0.5,
+      "bytes": 456206,
+      "seconds": 0.711,
+      "tiles": [
+        {
+          "index": 0,
+          "tag": "gun_steel",
+          "col": 0,
+          "row_from_top": 0,
+          "uv_rect": [
+            0.0,
+            0.75,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            0,
+            0,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 1,
+          "tag": "gun_blued",
+          "col": 1,
+          "row_from_top": 0,
+          "uv_rect": [
+            0.25,
+            0.75,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            256,
+            0,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 2,
+          "tag": "gun_black_poly",
+          "col": 2,
+          "row_from_top": 0,
+          "uv_rect": [
+            0.5,
+            0.75,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            512,
+            0,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 3,
+          "tag": "wood_stock",
+          "col": 3,
+          "row_from_top": 0,
+          "uv_rect": [
+            0.75,
+            0.75,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            768,
+            0,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 4,
+          "tag": "wood_dark_stock",
+          "col": 0,
+          "row_from_top": 1,
+          "uv_rect": [
+            0.0,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            0,
+            256,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 5,
+          "tag": "brass",
+          "col": 1,
+          "row_from_top": 1,
+          "uv_rect": [
+            0.25,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            256,
+            256,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 6,
+          "tag": "rust_metal",
+          "col": 2,
+          "row_from_top": 1,
+          "uv_rect": [
+            0.5,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            512,
+            256,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 7,
+          "tag": "grip_rubber",
+          "col": 3,
+          "row_from_top": 1,
+          "uv_rect": [
+            0.75,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            768,
+            256,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 8,
+          "tag": "camo_green",
+          "col": 0,
+          "row_from_top": 2,
+          "uv_rect": [
+            0.0,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            0,
+            512,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 9,
+          "tag": "tan_polymer",
+          "col": 1,
+          "row_from_top": 2,
+          "uv_rect": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            256,
+            512,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 10,
+          "tag": "chrome",
+          "col": 2,
+          "row_from_top": 2,
+          "uv_rect": [
+            0.5,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            512,
+            512,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 11,
+          "tag": "scope_glass",
+          "col": 3,
+          "row_from_top": 2,
+          "uv_rect": [
+            0.75,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            768,
+            512,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 12,
+          "tag": "tape_wrap",
+          "col": 0,
+          "row_from_top": 3,
+          "uv_rect": [
+            0.0,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            0,
+            768,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 13,
+          "tag": "paint_red",
+          "col": 1,
+          "row_from_top": 3,
+          "uv_rect": [
+            0.25,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            256,
+            768,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 14,
+          "tag": "bat_wood",
+          "col": 2,
+          "row_from_top": 3,
+          "uv_rect": [
+            0.5,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            512,
+            768,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 15,
+          "tag": "pipe_grey",
+          "col": 3,
+          "row_from_top": 3,
+          "uv_rect": [
+            0.75,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            768,
+            768,
+            256,
+            256
+          ]
+        }
+      ]
+    },
+    "HERO_ZOMBIE_1K": {
+      "atlas": "HERO_ZOMBIE_1K",
+      "file": "HERO_ZOMBIE_1K.png",
+      "material": "M_HERO_ZOMBIE_1K",
+      "size": 1024,
+      "grid": 4,
+      "cell_size": 256,
+      "mode": "cell",
+      "mpt": 0.8,
+      "bytes": 550164,
+      "seconds": 0.718,
+      "tiles": [
+        {
+          "index": 0,
+          "tag": "skin_pale",
+          "col": 0,
+          "row_from_top": 0,
+          "uv_rect": [
+            0.0,
+            0.75,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            0,
+            0,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 1,
+          "tag": "skin_grey",
+          "col": 1,
+          "row_from_top": 0,
+          "uv_rect": [
+            0.25,
+            0.75,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            256,
+            0,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 2,
+          "tag": "skin_green_sick",
+          "col": 2,
+          "row_from_top": 0,
+          "uv_rect": [
+            0.5,
+            0.75,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            512,
+            0,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 3,
+          "tag": "skin_burnt",
+          "col": 3,
+          "row_from_top": 0,
+          "uv_rect": [
+            0.75,
+            0.75,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            768,
+            0,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 4,
+          "tag": "face_walker",
+          "col": 0,
+          "row_from_top": 1,
+          "uv_rect": [
+            0.0,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            0,
+            256,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 5,
+          "tag": "face_runner",
+          "col": 1,
+          "row_from_top": 1,
+          "uv_rect": [
+            0.25,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            256,
+            256,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 6,
+          "tag": "face_spitter",
+          "col": 2,
+          "row_from_top": 1,
+          "uv_rect": [
+            0.5,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            512,
+            256,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 7,
+          "tag": "face_goliath",
+          "col": 3,
+          "row_from_top": 1,
+          "uv_rect": [
+            0.75,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            768,
+            256,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 8,
+          "tag": "cloth_suit",
+          "col": 0,
+          "row_from_top": 2,
+          "uv_rect": [
+            0.0,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            0,
+            512,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 9,
+          "tag": "cloth_casual",
+          "col": 1,
+          "row_from_top": 2,
+          "uv_rect": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            256,
+            512,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 10,
+          "tag": "cloth_labcoat",
+          "col": 2,
+          "row_from_top": 2,
+          "uv_rect": [
+            0.5,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            512,
+            512,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 11,
+          "tag": "cloth_security",
+          "col": 3,
+          "row_from_top": 2,
+          "uv_rect": [
+            0.75,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            768,
+            512,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 12,
+          "tag": "armor_plate",
+          "col": 0,
+          "row_from_top": 3,
+          "uv_rect": [
+            0.0,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            0,
+            768,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 13,
+          "tag": "blood_fresh",
+          "col": 1,
+          "row_from_top": 3,
+          "uv_rect": [
+            0.25,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            256,
+            768,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 14,
+          "tag": "blood_dried",
+          "col": 2,
+          "row_from_top": 3,
+          "uv_rect": [
+            0.5,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            512,
+            768,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 15,
+          "tag": "boil_flesh",
+          "col": 3,
+          "row_from_top": 3,
+          "uv_rect": [
+            0.75,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            768,
+            768,
+            256,
+            256
+          ]
+        }
+      ]
+    },
+    "HERO_SURVIVOR_1K": {
+      "atlas": "HERO_SURVIVOR_1K",
+      "file": "HERO_SURVIVOR_1K.png",
+      "material": "M_HERO_SURVIVOR_1K",
+      "size": 1024,
+      "grid": 4,
+      "cell_size": 256,
+      "mode": "cell",
+      "mpt": 0.8,
+      "bytes": 422537,
+      "seconds": 0.298,
+      "tiles": [
+        {
+          "index": 0,
+          "tag": "skin_tan",
+          "col": 0,
+          "row_from_top": 0,
+          "uv_rect": [
+            0.0,
+            0.75,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            0,
+            0,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 1,
+          "tag": "skin_light",
+          "col": 1,
+          "row_from_top": 0,
+          "uv_rect": [
+            0.25,
+            0.75,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            256,
+            0,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 2,
+          "tag": "skin_dark",
+          "col": 2,
+          "row_from_top": 0,
+          "uv_rect": [
+            0.5,
+            0.75,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            512,
+            0,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 3,
+          "tag": "face_aras",
+          "col": 3,
+          "row_from_top": 0,
+          "uv_rect": [
+            0.75,
+            0.75,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            768,
+            0,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 4,
+          "tag": "face_selin",
+          "col": 0,
+          "row_from_top": 1,
+          "uv_rect": [
+            0.0,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            0,
+            256,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 5,
+          "tag": "face_kemal",
+          "col": 1,
+          "row_from_top": 1,
+          "uv_rect": [
+            0.25,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            256,
+            256,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 6,
+          "tag": "face_elif",
+          "col": 2,
+          "row_from_top": 1,
+          "uv_rect": [
+            0.5,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            512,
+            256,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 7,
+          "tag": "hair_black",
+          "col": 3,
+          "row_from_top": 1,
+          "uv_rect": [
+            0.75,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            768,
+            256,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 8,
+          "tag": "hair_brown",
+          "col": 0,
+          "row_from_top": 2,
+          "uv_rect": [
+            0.0,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            0,
+            512,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 9,
+          "tag": "hair_grey",
+          "col": 1,
+          "row_from_top": 2,
+          "uv_rect": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            256,
+            512,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 10,
+          "tag": "cloth_jacket_orange",
+          "col": 2,
+          "row_from_top": 2,
+          "uv_rect": [
+            0.5,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            512,
+            512,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 11,
+          "tag": "cloth_jeans",
+          "col": 3,
+          "row_from_top": 2,
+          "uv_rect": [
+            0.75,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            768,
+            512,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 12,
+          "tag": "cloth_labcoat_clean",
+          "col": 0,
+          "row_from_top": 3,
+          "uv_rect": [
+            0.0,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            0,
+            768,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 13,
+          "tag": "cloth_overalls",
+          "col": 1,
+          "row_from_top": 3,
+          "uv_rect": [
+            0.25,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            256,
+            768,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 14,
+          "tag": "glove_leather",
+          "col": 2,
+          "row_from_top": 3,
+          "uv_rect": [
+            0.5,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            512,
+            768,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 15,
+          "tag": "boot_black",
+          "col": 3,
+          "row_from_top": 3,
+          "uv_rect": [
+            0.75,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            768,
+            768,
+            256,
+            256
+          ]
+        }
+      ]
+    },
+    "HERO_ITEMS_1K": {
+      "atlas": "HERO_ITEMS_1K",
+      "file": "HERO_ITEMS_1K.png",
+      "material": "M_HERO_ITEMS_1K",
+      "size": 1024,
+      "grid": 4,
+      "cell_size": 256,
+      "mode": "cell",
+      "mpt": 0.6,
+      "bytes": 382397,
+      "seconds": 0.818,
+      "tiles": [
+        {
+          "index": 0,
+          "tag": "keycard",
+          "col": 0,
+          "row_from_top": 0,
+          "uv_rect": [
+            0.0,
+            0.75,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            0,
+            0,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 1,
+          "tag": "vehicle_armor",
+          "col": 1,
+          "row_from_top": 0,
+          "uv_rect": [
+            0.25,
+            0.75,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            256,
+            0,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 2,
+          "tag": "helicopter_body",
+          "col": 2,
+          "row_from_top": 0,
+          "uv_rect": [
+            0.5,
+            0.75,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            512,
+            0,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 3,
+          "tag": "radio_olive",
+          "col": 3,
+          "row_from_top": 0,
+          "uv_rect": [
+            0.75,
+            0.75,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            768,
+            0,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 4,
+          "tag": "medkit_white",
+          "col": 0,
+          "row_from_top": 1,
+          "uv_rect": [
+            0.0,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            0,
+            256,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 5,
+          "tag": "generator_orange",
+          "col": 1,
+          "row_from_top": 1,
+          "uv_rect": [
+            0.25,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            256,
+            256,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 6,
+          "tag": "battery_green",
+          "col": 2,
+          "row_from_top": 1,
+          "uv_rect": [
+            0.5,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            512,
+            256,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 7,
+          "tag": "document_paper",
+          "col": 3,
+          "row_from_top": 1,
+          "uv_rect": [
+            0.75,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            768,
+            256,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 8,
+          "tag": "chem_yellow",
+          "col": 0,
+          "row_from_top": 2,
+          "uv_rect": [
+            0.0,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            0,
+            512,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 9,
+          "tag": "circuit_green",
+          "col": 1,
+          "row_from_top": 2,
+          "uv_rect": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            256,
+            512,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 10,
+          "tag": "canister_red",
+          "col": 2,
+          "row_from_top": 2,
+          "uv_rect": [
+            0.5,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            512,
+            512,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 11,
+          "tag": "glass_vial",
+          "col": 3,
+          "row_from_top": 2,
+          "uv_rect": [
+            0.75,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            768,
+            512,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 12,
+          "tag": "lab_steel",
+          "col": 0,
+          "row_from_top": 3,
+          "uv_rect": [
+            0.0,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            0,
+            768,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 13,
+          "tag": "screen_green",
+          "col": 1,
+          "row_from_top": 3,
+          "uv_rect": [
+            0.25,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            256,
+            768,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 14,
+          "tag": "tool_orange",
+          "col": 2,
+          "row_from_top": 3,
+          "uv_rect": [
+            0.5,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            512,
+            768,
+            256,
+            256
+          ]
+        },
+        {
+          "index": 15,
+          "tag": "bandage",
+          "col": 3,
+          "row_from_top": 3,
+          "uv_rect": [
+            0.75,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            768,
+            768,
+            256,
+            256
+          ]
+        }
+      ]
+    },
+    "PROP_A_512": {
+      "atlas": "PROP_A_512",
+      "file": "PROP_A_512.png",
+      "material": "M_PROP_A_512",
+      "size": 512,
+      "grid": 4,
+      "cell_size": 128,
+      "mode": "cell",
+      "mpt": 0.25,
+      "bytes": 118914,
+      "seconds": 0.561,
+      "tiles": [
+        {
+          "index": 0,
+          "tag": "can_tomato",
+          "col": 0,
+          "row_from_top": 0,
+          "uv_rect": [
+            0.0,
+            0.75,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            0,
+            0,
+            128,
+            128
+          ]
+        },
+        {
+          "index": 1,
+          "tag": "can_beans",
+          "col": 1,
+          "row_from_top": 0,
+          "uv_rect": [
+            0.25,
+            0.75,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            128,
+            0,
+            128,
+            128
+          ]
+        },
+        {
+          "index": 2,
+          "tag": "can_tuna",
+          "col": 2,
+          "row_from_top": 0,
+          "uv_rect": [
+            0.5,
+            0.75,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            256,
+            0,
+            128,
+            128
+          ]
+        },
+        {
+          "index": 3,
+          "tag": "bottle_water",
+          "col": 3,
+          "row_from_top": 0,
+          "uv_rect": [
+            0.75,
+            0.75,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            384,
+            0,
+            128,
+            128
+          ]
+        },
+        {
+          "index": 4,
+          "tag": "bottle_soda",
+          "col": 0,
+          "row_from_top": 1,
+          "uv_rect": [
+            0.0,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            0,
+            128,
+            128,
+            128
+          ]
+        },
+        {
+          "index": 5,
+          "tag": "book_red",
+          "col": 1,
+          "row_from_top": 1,
+          "uv_rect": [
+            0.25,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            128,
+            128,
+            128,
+            128
+          ]
+        },
+        {
+          "index": 6,
+          "tag": "book_blue",
+          "col": 2,
+          "row_from_top": 1,
+          "uv_rect": [
+            0.5,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            256,
+            128,
+            128,
+            128
+          ]
+        },
+        {
+          "index": 7,
+          "tag": "book_green",
+          "col": 3,
+          "row_from_top": 1,
+          "uv_rect": [
+            0.75,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            384,
+            128,
+            128,
+            128
+          ]
+        },
+        {
+          "index": 8,
+          "tag": "outlet_white",
+          "col": 0,
+          "row_from_top": 2,
+          "uv_rect": [
+            0.0,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            0,
+            256,
+            128,
+            128
+          ]
+        },
+        {
+          "index": 9,
+          "tag": "box_cardboard",
+          "col": 1,
+          "row_from_top": 2,
+          "uv_rect": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            128,
+            256,
+            128,
+            128
+          ]
+        },
+        {
+          "index": 10,
+          "tag": "paper_note",
+          "col": 2,
+          "row_from_top": 2,
+          "uv_rect": [
+            0.5,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            256,
+            256,
+            128,
+            128
+          ]
+        },
+        {
+          "index": 11,
+          "tag": "wrapper_snack",
+          "col": 3,
+          "row_from_top": 2,
+          "uv_rect": [
+            0.75,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            384,
+            256,
+            128,
+            128
+          ]
+        },
+        {
+          "index": 12,
+          "tag": "battery_metal",
+          "col": 0,
+          "row_from_top": 3,
+          "uv_rect": [
+            0.0,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            0,
+            384,
+            128,
+            128
+          ]
+        },
+        {
+          "index": 13,
+          "tag": "key_brass",
+          "col": 1,
+          "row_from_top": 3,
+          "uv_rect": [
+            0.25,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            128,
+            384,
+            128,
+            128
+          ]
+        },
+        {
+          "index": 14,
+          "tag": "tape_duct",
+          "col": 2,
+          "row_from_top": 3,
+          "uv_rect": [
+            0.5,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            256,
+            384,
+            128,
+            128
+          ]
+        },
+        {
+          "index": 15,
+          "tag": "coin_gold",
+          "col": 3,
+          "row_from_top": 3,
+          "uv_rect": [
+            0.75,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            384,
+            384,
+            128,
+            128
+          ]
+        }
+      ]
+    },
+    "PROP_B_512": {
+      "atlas": "PROP_B_512",
+      "file": "PROP_B_512.png",
+      "material": "M_PROP_B_512",
+      "size": 512,
+      "grid": 4,
+      "cell_size": 128,
+      "mode": "cell",
+      "mpt": 0.25,
+      "bytes": 132127,
+      "seconds": 0.273,
+      "tiles": [
+        {
+          "index": 0,
+          "tag": "pill_bottle",
+          "col": 0,
+          "row_from_top": 0,
+          "uv_rect": [
+            0.0,
+            0.75,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            0,
+            0,
+            128,
+            128
+          ]
+        },
+        {
+          "index": 1,
+          "tag": "syringe",
+          "col": 1,
+          "row_from_top": 0,
+          "uv_rect": [
+            0.25,
+            0.75,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            128,
+            0,
+            128,
+            128
+          ]
+        },
+        {
+          "index": 2,
+          "tag": "bandage_roll",
+          "col": 2,
+          "row_from_top": 0,
+          "uv_rect": [
+            0.5,
+            0.75,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            256,
+            0,
+            128,
+            128
+          ]
+        },
+        {
+          "index": 3,
+          "tag": "bulb_glass",
+          "col": 3,
+          "row_from_top": 0,
+          "uv_rect": [
+            0.75,
+            0.75,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            384,
+            0,
+            128,
+            128
+          ]
+        },
+        {
+          "index": 4,
+          "tag": "wire_copper",
+          "col": 0,
+          "row_from_top": 1,
+          "uv_rect": [
+            0.0,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            0,
+            128,
+            128,
+            128
+          ]
+        },
+        {
+          "index": 5,
+          "tag": "screw_metal",
+          "col": 1,
+          "row_from_top": 1,
+          "uv_rect": [
+            0.25,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            128,
+            128,
+            128,
+            128
+          ]
+        },
+        {
+          "index": 6,
+          "tag": "scrap_metal",
+          "col": 2,
+          "row_from_top": 1,
+          "uv_rect": [
+            0.5,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            256,
+            128,
+            128,
+            128
+          ]
+        },
+        {
+          "index": 7,
+          "tag": "cloth_rag",
+          "col": 3,
+          "row_from_top": 1,
+          "uv_rect": [
+            0.75,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            384,
+            128,
+            128,
+            128
+          ]
+        },
+        {
+          "index": 8,
+          "tag": "lighter",
+          "col": 0,
+          "row_from_top": 2,
+          "uv_rect": [
+            0.0,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            0,
+            256,
+            128,
+            128
+          ]
+        },
+        {
+          "index": 9,
+          "tag": "matchbox",
+          "col": 1,
+          "row_from_top": 2,
+          "uv_rect": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            128,
+            256,
+            128,
+            128
+          ]
+        },
+        {
+          "index": 10,
+          "tag": "flashlight_body",
+          "col": 2,
+          "row_from_top": 2,
+          "uv_rect": [
+            0.5,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            256,
+            256,
+            128,
+            128
+          ]
+        },
+        {
+          "index": 11,
+          "tag": "radio_small",
+          "col": 3,
+          "row_from_top": 2,
+          "uv_rect": [
+            0.75,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            384,
+            256,
+            128,
+            128
+          ]
+        },
+        {
+          "index": 12,
+          "tag": "photo_frame",
+          "col": 0,
+          "row_from_top": 3,
+          "uv_rect": [
+            0.0,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            0,
+            384,
+            128,
+            128
+          ]
+        },
+        {
+          "index": 13,
+          "tag": "toy_plastic",
+          "col": 1,
+          "row_from_top": 3,
+          "uv_rect": [
+            0.25,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            128,
+            384,
+            128,
+            128
+          ]
+        },
+        {
+          "index": 14,
+          "tag": "mug_ceramic",
+          "col": 2,
+          "row_from_top": 3,
+          "uv_rect": [
+            0.5,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            256,
+            384,
+            128,
+            128
+          ]
+        },
+        {
+          "index": 15,
+          "tag": "cigarette_pack",
+          "col": 3,
+          "row_from_top": 3,
+          "uv_rect": [
+            0.75,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "pixel_rect": [
+            384,
+            384,
+            128,
+            128
+          ]
+        }
+      ]
+    }
+  }
+}

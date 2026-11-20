@@ -1,0 +1,4953 @@
+{
+  "project": "45: Layered Hell",
+  "sample_rate": 44100,
+  "channels": 1,
+  "sample_width_bits": 16,
+  "total_files": 379,
+  "total_bases": 193,
+  "total_size_mb": 41.45,
+  "category_counts": {
+    "Foley": 114,
+    "Weapons": 97,
+    "World": 78,
+    "Zombies": 90
+  },
+  "bases": {
+    "bandage": [
+      "Assets/Audio/Foley/bandage_01.wav"
+    ],
+    "barricade_build": [
+      "Assets/Audio/Foley/barricade_build_01.wav"
+    ],
+    "cough": [
+      "Assets/Audio/Foley/cough_01.wav",
+      "Assets/Audio/Foley/cough_02.wav"
+    ],
+    "craft": [
+      "Assets/Audio/Foley/craft_01.wav",
+      "Assets/Audio/Foley/craft_02.wav"
+    ],
+    "door_close": [
+      "Assets/Audio/Foley/door_close_01.wav",
+      "Assets/Audio/Foley/door_close_02.wav"
+    ],
+    "door_creak": [
+      "Assets/Audio/Foley/door_creak_01.wav",
+      "Assets/Audio/Foley/door_creak_02.wav"
+    ],
+    "door_locked": [
+      "Assets/Audio/Foley/door_locked_01.wav",
+      "Assets/Audio/Foley/door_locked_02.wav"
+    ],
+    "door_open": [
+      "Assets/Audio/Foley/door_open_01.wav",
+      "Assets/Audio/Foley/door_open_02.wav"
+    ],
+    "drink": [
+      "Assets/Audio/Foley/drink_01.wav"
+    ],
+    "drip": [
+      "Assets/Audio/Foley/drip_01.wav",
+      "Assets/Audio/Foley/drip_02.wav"
+    ],
+    "eat": [
+      "Assets/Audio/Foley/eat_01.wav"
+    ],
+    "elevator_ding": [
+      "Assets/Audio/Foley/elevator_ding_01.wav"
+    ],
+    "elevator_door": [
+      "Assets/Audio/Foley/elevator_door_01.wav"
+    ],
+    "elevator_move": [
+      "Assets/Audio/Foley/elevator_move_01.wav"
+    ],
+    "flashlight_click": [
+      "Assets/Audio/Foley/flashlight_click_01.wav"
+    ],
+    "generator_loop": [
+      "Assets/Audio/Foley/generator_loop_01.wav"
+    ],
+    "generator_start": [
+      "Assets/Audio/Foley/generator_start_01.wav"
+    ],
+    "generator_stop": [
+      "Assets/Audio/Foley/generator_stop_01.wav"
+    ],
+    "hammer": [
+      "Assets/Audio/Foley/hammer_01.wav",
+      "Assets/Audio/Foley/hammer_02.wav"
+    ],
+    "inject": [
+      "Assets/Audio/Foley/inject_01.wav"
+    ],
+    "jump_land": [
+      "Assets/Audio/Foley/jump_land_01.wav",
+      "Assets/Audio/Foley/jump_land_02.wav"
+    ],
+    "lock_break": [
+      "Assets/Audio/Foley/lock_break_01.wav"
+    ],
+    "lockpick": [
+      "Assets/Audio/Foley/lockpick_01.wav",
+      "Assets/Audio/Foley/lockpick_02.wav"
+    ],
+    "pickup_ammo": [
+      "Assets/Audio/Foley/pickup_ammo_01.wav"
+    ],
+    "pickup_battery": [
+      "Assets/Audio/Foley/pickup_battery_01.wav"
+    ],
+    "pickup_book": [
+      "Assets/Audio/Foley/pickup_book_01.wav"
+    ],
+    "pickup_bottle": [
+      "Assets/Audio/Foley/pickup_bottle_01.wav"
+    ],
+    "pickup_can": [
+      "Assets/Audio/Foley/pickup_can_01.wav"
+    ],
+    "pickup_card": [
+      "Assets/Audio/Foley/pickup_card_01.wav"
+    ],
+    "pickup_chem": [
+      "Assets/Audio/Foley/pickup_chem_01.wav"
+    ],
+    "pickup_cloth": [
+      "Assets/Audio/Foley/pickup_cloth_01.wav"
+    ],
+    "pickup_coin": [
+      "Assets/Audio/Foley/pickup_coin_01.wav"
+    ],
+    "pickup_electronics": [
+      "Assets/Audio/Foley/pickup_electronics_01.wav"
+    ],
+    "pickup_food": [
+      "Assets/Audio/Foley/pickup_food_01.wav"
+    ],
+    "pickup_glass": [
+      "Assets/Audio/Foley/pickup_glass_01.wav"
+    ],
+    "pickup_key": [
+      "Assets/Audio/Foley/pickup_key_01.wav"
+    ],
+    "pickup_med": [
+      "Assets/Audio/Foley/pickup_med_01.wav"
+    ],
+    "pickup_metal": [
+      "Assets/Audio/Foley/pickup_metal_01.wav"
+    ],
+    "pickup_paper": [
+      "Assets/Audio/Foley/pickup_paper_01.wav"
+    ],
+    "pickup_plastic": [
+      "Assets/Audio/Foley/pickup_plastic_01.wav"
+    ],
+    "pickup_tool": [
+      "Assets/Audio/Foley/pickup_tool_01.wav"
+    ],
+    "pickup_weapon": [
+      "Assets/Audio/Foley/pickup_weapon_01.wav"
+    ],
+    "pickup_wood": [
+      "Assets/Audio/Foley/pickup_wood_01.wav"
+    ],
+    "radio_beep": [
+      "Assets/Audio/Foley/radio_beep_01.wav"
+    ],
+    "radio_squelch": [
+      "Assets/Audio/Foley/radio_squelch_01.wav"
+    ],
+    "radio_static": [
+      "Assets/Audio/Foley/radio_static_01.wav",
+      "Assets/Audio/Foley/radio_static_02.wav"
+    ],
+    "radio_tune": [
+      "Assets/Audio/Foley/radio_tune_01.wav"
+    ],
+    "radio_voice": [
+      "Assets/Audio/Foley/radio_voice_01.wav",
+      "Assets/Audio/Foley/radio_voice_02.wav"
+    ],
+    "step_concrete_crouch": [
+      "Assets/Audio/Foley/step_concrete_crouch_01.wav",
+      "Assets/Audio/Foley/step_concrete_crouch_02.wav",
+      "Assets/Audio/Foley/step_concrete_crouch_03.wav"
+    ],
+    "step_concrete_run": [
+      "Assets/Audio/Foley/step_concrete_run_01.wav",
+      "Assets/Audio/Foley/step_concrete_run_02.wav",
+      "Assets/Audio/Foley/step_concrete_run_03.wav"
+    ],
+    "step_concrete_walk": [
+      "Assets/Audio/Foley/step_concrete_walk_01.wav",
+      "Assets/Audio/Foley/step_concrete_walk_02.wav",
+      "Assets/Audio/Foley/step_concrete_walk_03.wav"
+    ],
+    "step_glass_crouch": [
+      "Assets/Audio/Foley/step_glass_crouch_01.wav",
+      "Assets/Audio/Foley/step_glass_crouch_02.wav",
+      "Assets/Audio/Foley/step_glass_crouch_03.wav"
+    ],
+    "step_glass_run": [
+      "Assets/Audio/Foley/step_glass_run_01.wav",
+      "Assets/Audio/Foley/step_glass_run_02.wav",
+      "Assets/Audio/Foley/step_glass_run_03.wav"
+    ],
+    "step_glass_walk": [
+      "Assets/Audio/Foley/step_glass_walk_01.wav",
+      "Assets/Audio/Foley/step_glass_walk_02.wav",
+      "Assets/Audio/Foley/step_glass_walk_03.wav"
+    ],
+    "step_metalstair_crouch": [
+      "Assets/Audio/Foley/step_metalstair_crouch_01.wav",
+      "Assets/Audio/Foley/step_metalstair_crouch_02.wav",
+      "Assets/Audio/Foley/step_metalstair_crouch_03.wav"
+    ],
+    "step_metalstair_run": [
+      "Assets/Audio/Foley/step_metalstair_run_01.wav",
+      "Assets/Audio/Foley/step_metalstair_run_02.wav",
+      "Assets/Audio/Foley/step_metalstair_run_03.wav"
+    ],
+    "step_metalstair_walk": [
+      "Assets/Audio/Foley/step_metalstair_walk_01.wav",
+      "Assets/Audio/Foley/step_metalstair_walk_02.wav",
+      "Assets/Audio/Foley/step_metalstair_walk_03.wav"
+    ],
+    "step_parquet_crouch": [
+      "Assets/Audio/Foley/step_parquet_crouch_01.wav",
+      "Assets/Audio/Foley/step_parquet_crouch_02.wav",
+      "Assets/Audio/Foley/step_parquet_crouch_03.wav"
+    ],
+    "step_parquet_run": [
+      "Assets/Audio/Foley/step_parquet_run_01.wav",
+      "Assets/Audio/Foley/step_parquet_run_02.wav",
+      "Assets/Audio/Foley/step_parquet_run_03.wav"
+    ],
+    "step_parquet_walk": [
+      "Assets/Audio/Foley/step_parquet_walk_01.wav",
+      "Assets/Audio/Foley/step_parquet_walk_02.wav",
+      "Assets/Audio/Foley/step_parquet_walk_03.wav"
+    ],
+    "step_tile_crouch": [
+      "Assets/Audio/Foley/step_tile_crouch_01.wav",
+      "Assets/Audio/Foley/step_tile_crouch_02.wav",
+      "Assets/Audio/Foley/step_tile_crouch_03.wav"
+    ],
+    "step_tile_run": [
+      "Assets/Audio/Foley/step_tile_run_01.wav",
+      "Assets/Audio/Foley/step_tile_run_02.wav",
+      "Assets/Audio/Foley/step_tile_run_03.wav"
+    ],
+    "step_tile_walk": [
+      "Assets/Audio/Foley/step_tile_walk_01.wav",
+      "Assets/Audio/Foley/step_tile_walk_02.wav",
+      "Assets/Audio/Foley/step_tile_walk_03.wav"
+    ],
+    "step_water_crouch": [
+      "Assets/Audio/Foley/step_water_crouch_01.wav",
+      "Assets/Audio/Foley/step_water_crouch_02.wav",
+      "Assets/Audio/Foley/step_water_crouch_03.wav"
+    ],
+    "step_water_run": [
+      "Assets/Audio/Foley/step_water_run_01.wav",
+      "Assets/Audio/Foley/step_water_run_02.wav",
+      "Assets/Audio/Foley/step_water_run_03.wav"
+    ],
+    "step_water_walk": [
+      "Assets/Audio/Foley/step_water_walk_01.wav",
+      "Assets/Audio/Foley/step_water_walk_02.wav",
+      "Assets/Audio/Foley/step_water_walk_03.wav"
+    ],
+    "bullet_whiz": [
+      "Assets/Audio/Weapons/bullet_whiz_01.wav",
+      "Assets/Audio/Weapons/bullet_whiz_02.wav"
+    ],
+    "explosion": [
+      "Assets/Audio/Weapons/explosion_01.wav",
+      "Assets/Audio/Weapons/explosion_02.wav"
+    ],
+    "impact_concrete": [
+      "Assets/Audio/Weapons/impact_concrete_01.wav"
+    ],
+    "impact_glass": [
+      "Assets/Audio/Weapons/impact_glass_01.wav"
+    ],
+    "impact_metal": [
+      "Assets/Audio/Weapons/impact_metal_01.wav"
+    ],
+    "melee_hit_bone": [
+      "Assets/Audio/Weapons/melee_hit_bone_01.wav",
+      "Assets/Audio/Weapons/melee_hit_bone_02.wav"
+    ],
+    "melee_hit_flesh": [
+      "Assets/Audio/Weapons/melee_hit_flesh_01.wav",
+      "Assets/Audio/Weapons/melee_hit_flesh_02.wav"
+    ],
+    "melee_hit_metal": [
+      "Assets/Audio/Weapons/melee_hit_metal_01.wav",
+      "Assets/Audio/Weapons/melee_hit_metal_02.wav"
+    ],
+    "melee_swing_axe": [
+      "Assets/Audio/Weapons/melee_swing_axe_01.wav"
+    ],
+    "melee_swing_bat": [
+      "Assets/Audio/Weapons/melee_swing_bat_01.wav"
+    ],
+    "melee_swing_machete": [
+      "Assets/Audio/Weapons/melee_swing_machete_01.wav"
+    ],
+    "melee_swing_pipe": [
+      "Assets/Audio/Weapons/melee_swing_pipe_01.wav"
+    ],
+    "molotov": [
+      "Assets/Audio/Weapons/molotov_01.wav",
+      "Assets/Audio/Weapons/molotov_02.wav"
+    ],
+    "shell_concrete": [
+      "Assets/Audio/Weapons/shell_concrete_01.wav",
+      "Assets/Audio/Weapons/shell_concrete_02.wav"
+    ],
+    "shell_metal": [
+      "Assets/Audio/Weapons/shell_metal_01.wav",
+      "Assets/Audio/Weapons/shell_metal_02.wav"
+    ],
+    "shell_wood": [
+      "Assets/Audio/Weapons/shell_wood_01.wav",
+      "Assets/Audio/Weapons/shell_wood_02.wav"
+    ],
+    "wpn_pistol_draw": [
+      "Assets/Audio/Weapons/wpn_pistol_draw_01.wav",
+      "Assets/Audio/Weapons/wpn_pistol_draw_02.wav"
+    ],
+    "wpn_pistol_echo": [
+      "Assets/Audio/Weapons/wpn_pistol_echo_01.wav",
+      "Assets/Audio/Weapons/wpn_pistol_echo_02.wav"
+    ],
+    "wpn_pistol_empty": [
+      "Assets/Audio/Weapons/wpn_pistol_empty_01.wav",
+      "Assets/Audio/Weapons/wpn_pistol_empty_02.wav"
+    ],
+    "wpn_pistol_fire": [
+      "Assets/Audio/Weapons/wpn_pistol_fire_01.wav",
+      "Assets/Audio/Weapons/wpn_pistol_fire_02.wav"
+    ],
+    "wpn_pistol_reload_in": [
+      "Assets/Audio/Weapons/wpn_pistol_reload_in_01.wav",
+      "Assets/Audio/Weapons/wpn_pistol_reload_in_02.wav"
+    ],
+    "wpn_pistol_reload_out": [
+      "Assets/Audio/Weapons/wpn_pistol_reload_out_01.wav",
+      "Assets/Audio/Weapons/wpn_pistol_reload_out_02.wav"
+    ],
+    "wpn_revolver_draw": [
+      "Assets/Audio/Weapons/wpn_revolver_draw_01.wav",
+      "Assets/Audio/Weapons/wpn_revolver_draw_02.wav"
+    ],
+    "wpn_revolver_echo": [
+      "Assets/Audio/Weapons/wpn_revolver_echo_01.wav",
+      "Assets/Audio/Weapons/wpn_revolver_echo_02.wav"
+    ],
+    "wpn_revolver_empty": [
+      "Assets/Audio/Weapons/wpn_revolver_empty_01.wav",
+      "Assets/Audio/Weapons/wpn_revolver_empty_02.wav"
+    ],
+    "wpn_revolver_fire": [
+      "Assets/Audio/Weapons/wpn_revolver_fire_01.wav",
+      "Assets/Audio/Weapons/wpn_revolver_fire_02.wav"
+    ],
+    "wpn_revolver_reload_in": [
+      "Assets/Audio/Weapons/wpn_revolver_reload_in_01.wav",
+      "Assets/Audio/Weapons/wpn_revolver_reload_in_02.wav"
+    ],
+    "wpn_revolver_reload_out": [
+      "Assets/Audio/Weapons/wpn_revolver_reload_out_01.wav",
+      "Assets/Audio/Weapons/wpn_revolver_reload_out_02.wav"
+    ],
+    "wpn_rifle_draw": [
+      "Assets/Audio/Weapons/wpn_rifle_draw_01.wav",
+      "Assets/Audio/Weapons/wpn_rifle_draw_02.wav"
+    ],
+    "wpn_rifle_echo": [
+      "Assets/Audio/Weapons/wpn_rifle_echo_01.wav",
+      "Assets/Audio/Weapons/wpn_rifle_echo_02.wav"
+    ],
+    "wpn_rifle_empty": [
+      "Assets/Audio/Weapons/wpn_rifle_empty_01.wav",
+      "Assets/Audio/Weapons/wpn_rifle_empty_02.wav"
+    ],
+    "wpn_rifle_fire": [
+      "Assets/Audio/Weapons/wpn_rifle_fire_01.wav",
+      "Assets/Audio/Weapons/wpn_rifle_fire_02.wav"
+    ],
+    "wpn_rifle_reload_in": [
+      "Assets/Audio/Weapons/wpn_rifle_reload_in_01.wav",
+      "Assets/Audio/Weapons/wpn_rifle_reload_in_02.wav"
+    ],
+    "wpn_rifle_reload_out": [
+      "Assets/Audio/Weapons/wpn_rifle_reload_out_01.wav",
+      "Assets/Audio/Weapons/wpn_rifle_reload_out_02.wav"
+    ],
+    "wpn_shotgun_draw": [
+      "Assets/Audio/Weapons/wpn_shotgun_draw_01.wav",
+      "Assets/Audio/Weapons/wpn_shotgun_draw_02.wav"
+    ],
+    "wpn_shotgun_echo": [
+      "Assets/Audio/Weapons/wpn_shotgun_echo_01.wav",
+      "Assets/Audio/Weapons/wpn_shotgun_echo_02.wav"
+    ],
+    "wpn_shotgun_empty": [
+      "Assets/Audio/Weapons/wpn_shotgun_empty_01.wav",
+      "Assets/Audio/Weapons/wpn_shotgun_empty_02.wav"
+    ],
+    "wpn_shotgun_fire": [
+      "Assets/Audio/Weapons/wpn_shotgun_fire_01.wav",
+      "Assets/Audio/Weapons/wpn_shotgun_fire_02.wav"
+    ],
+    "wpn_shotgun_reload_in": [
+      "Assets/Audio/Weapons/wpn_shotgun_reload_in_01.wav",
+      "Assets/Audio/Weapons/wpn_shotgun_reload_in_02.wav"
+    ],
+    "wpn_shotgun_reload_out": [
+      "Assets/Audio/Weapons/wpn_shotgun_reload_out_01.wav",
+      "Assets/Audio/Weapons/wpn_shotgun_reload_out_02.wav"
+    ],
+    "wpn_smg_draw": [
+      "Assets/Audio/Weapons/wpn_smg_draw_01.wav",
+      "Assets/Audio/Weapons/wpn_smg_draw_02.wav"
+    ],
+    "wpn_smg_echo": [
+      "Assets/Audio/Weapons/wpn_smg_echo_01.wav",
+      "Assets/Audio/Weapons/wpn_smg_echo_02.wav"
+    ],
+    "wpn_smg_empty": [
+      "Assets/Audio/Weapons/wpn_smg_empty_01.wav",
+      "Assets/Audio/Weapons/wpn_smg_empty_02.wav"
+    ],
+    "wpn_smg_fire": [
+      "Assets/Audio/Weapons/wpn_smg_fire_01.wav",
+      "Assets/Audio/Weapons/wpn_smg_fire_02.wav"
+    ],
+    "wpn_smg_reload_in": [
+      "Assets/Audio/Weapons/wpn_smg_reload_in_01.wav",
+      "Assets/Audio/Weapons/wpn_smg_reload_in_02.wav"
+    ],
+    "wpn_smg_reload_out": [
+      "Assets/Audio/Weapons/wpn_smg_reload_out_01.wav",
+      "Assets/Audio/Weapons/wpn_smg_reload_out_02.wav"
+    ],
+    "wpn_sniper_draw": [
+      "Assets/Audio/Weapons/wpn_sniper_draw_01.wav",
+      "Assets/Audio/Weapons/wpn_sniper_draw_02.wav"
+    ],
+    "wpn_sniper_echo": [
+      "Assets/Audio/Weapons/wpn_sniper_echo_01.wav",
+      "Assets/Audio/Weapons/wpn_sniper_echo_02.wav"
+    ],
+    "wpn_sniper_empty": [
+      "Assets/Audio/Weapons/wpn_sniper_empty_01.wav",
+      "Assets/Audio/Weapons/wpn_sniper_empty_02.wav"
+    ],
+    "wpn_sniper_fire": [
+      "Assets/Audio/Weapons/wpn_sniper_fire_01.wav",
+      "Assets/Audio/Weapons/wpn_sniper_fire_02.wav"
+    ],
+    "wpn_sniper_reload_in": [
+      "Assets/Audio/Weapons/wpn_sniper_reload_in_01.wav",
+      "Assets/Audio/Weapons/wpn_sniper_reload_in_02.wav"
+    ],
+    "wpn_sniper_reload_out": [
+      "Assets/Audio/Weapons/wpn_sniper_reload_out_01.wav",
+      "Assets/Audio/Weapons/wpn_sniper_reload_out_02.wav"
+    ],
+    "alarm": [
+      "Assets/Audio/World/alarm_01.wav",
+      "Assets/Audio/World/alarm_02.wav",
+      "Assets/Audio/World/alarm_03.wav"
+    ],
+    "amb_base": [
+      "Assets/Audio/World/amb_base_01.wav",
+      "Assets/Audio/World/amb_base_02.wav"
+    ],
+    "amb_basement": [
+      "Assets/Audio/World/amb_basement_01.wav",
+      "Assets/Audio/World/amb_basement_02.wav"
+    ],
+    "amb_executive": [
+      "Assets/Audio/World/amb_executive_01.wav",
+      "Assets/Audio/World/amb_executive_02.wav"
+    ],
+    "amb_gym": [
+      "Assets/Audio/World/amb_gym_01.wav",
+      "Assets/Audio/World/amb_gym_02.wav"
+    ],
+    "amb_lab": [
+      "Assets/Audio/World/amb_lab_01.wav",
+      "Assets/Audio/World/amb_lab_02.wav"
+    ],
+    "amb_lobby": [
+      "Assets/Audio/World/amb_lobby_01.wav",
+      "Assets/Audio/World/amb_lobby_02.wav"
+    ],
+    "amb_mall": [
+      "Assets/Audio/World/amb_mall_01.wav",
+      "Assets/Audio/World/amb_mall_02.wav"
+    ],
+    "amb_medical": [
+      "Assets/Audio/World/amb_medical_01.wav",
+      "Assets/Audio/World/amb_medical_02.wav"
+    ],
+    "amb_office": [
+      "Assets/Audio/World/amb_office_01.wav",
+      "Assets/Audio/World/amb_office_02.wav"
+    ],
+    "amb_parking": [
+      "Assets/Audio/World/amb_parking_01.wav",
+      "Assets/Audio/World/amb_parking_02.wav"
+    ],
+    "amb_residential": [
+      "Assets/Audio/World/amb_residential_01.wav",
+      "Assets/Audio/World/amb_residential_02.wav"
+    ],
+    "amb_roof": [
+      "Assets/Audio/World/amb_roof_01.wav",
+      "Assets/Audio/World/amb_roof_02.wav"
+    ],
+    "heartbeat": [
+      "Assets/Audio/World/heartbeat_01.wav",
+      "Assets/Audio/World/heartbeat_02.wav"
+    ],
+    "mus_boss": [
+      "Assets/Audio/World/mus_boss_01.wav",
+      "Assets/Audio/World/mus_boss_02.wav"
+    ],
+    "mus_combat": [
+      "Assets/Audio/World/mus_combat_01.wav",
+      "Assets/Audio/World/mus_combat_02.wav"
+    ],
+    "mus_ending_escape": [
+      "Assets/Audio/World/mus_ending_escape_01.wav"
+    ],
+    "mus_ending_helicopter": [
+      "Assets/Audio/World/mus_ending_helicopter_01.wav"
+    ],
+    "mus_explore": [
+      "Assets/Audio/World/mus_explore_01.wav",
+      "Assets/Audio/World/mus_explore_02.wav"
+    ],
+    "mus_safehouse": [
+      "Assets/Audio/World/mus_safehouse_01.wav",
+      "Assets/Audio/World/mus_safehouse_02.wav"
+    ],
+    "mus_stinger": [
+      "Assets/Audio/World/mus_stinger_01.wav",
+      "Assets/Audio/World/mus_stinger_02.wav",
+      "Assets/Audio/World/mus_stinger_03.wav"
+    ],
+    "mus_tension": [
+      "Assets/Audio/World/mus_tension_01.wav",
+      "Assets/Audio/World/mus_tension_02.wav"
+    ],
+    "rain": [
+      "Assets/Audio/World/rain_01.wav",
+      "Assets/Audio/World/rain_02.wav",
+      "Assets/Audio/World/rain_03.wav"
+    ],
+    "thunder": [
+      "Assets/Audio/World/thunder_01.wav",
+      "Assets/Audio/World/thunder_02.wav",
+      "Assets/Audio/World/thunder_03.wav"
+    ],
+    "tinnitus": [
+      "Assets/Audio/World/tinnitus_01.wav"
+    ],
+    "ui_back": [
+      "Assets/Audio/World/ui_back_01.wav",
+      "Assets/Audio/World/ui_back_02.wav"
+    ],
+    "ui_click": [
+      "Assets/Audio/World/ui_click_01.wav",
+      "Assets/Audio/World/ui_click_02.wav"
+    ],
+    "ui_close": [
+      "Assets/Audio/World/ui_close_01.wav",
+      "Assets/Audio/World/ui_close_02.wav"
+    ],
+    "ui_confirm": [
+      "Assets/Audio/World/ui_confirm_01.wav",
+      "Assets/Audio/World/ui_confirm_02.wav"
+    ],
+    "ui_craft": [
+      "Assets/Audio/World/ui_craft_01.wav"
+    ],
+    "ui_denied": [
+      "Assets/Audio/World/ui_denied_01.wav",
+      "Assets/Audio/World/ui_denied_02.wav"
+    ],
+    "ui_equip": [
+      "Assets/Audio/World/ui_equip_01.wav",
+      "Assets/Audio/World/ui_equip_02.wav"
+    ],
+    "ui_error": [
+      "Assets/Audio/World/ui_error_01.wav",
+      "Assets/Audio/World/ui_error_02.wav"
+    ],
+    "ui_journal": [
+      "Assets/Audio/World/ui_journal_01.wav"
+    ],
+    "ui_open": [
+      "Assets/Audio/World/ui_open_01.wav",
+      "Assets/Audio/World/ui_open_02.wav"
+    ],
+    "ui_quest": [
+      "Assets/Audio/World/ui_quest_01.wav"
+    ],
+    "ui_save": [
+      "Assets/Audio/World/ui_save_01.wav"
+    ],
+    "ui_tab": [
+      "Assets/Audio/World/ui_tab_01.wav",
+      "Assets/Audio/World/ui_tab_02.wav"
+    ],
+    "ui_toast": [
+      "Assets/Audio/World/ui_toast_01.wav"
+    ],
+    "ui_upgrade": [
+      "Assets/Audio/World/ui_upgrade_01.wav"
+    ],
+    "wind": [
+      "Assets/Audio/World/wind_01.wav",
+      "Assets/Audio/World/wind_02.wav",
+      "Assets/Audio/World/wind_03.wav"
+    ],
+    "zmb_armored_attack": [
+      "Assets/Audio/Zombies/zmb_armored_attack_01.wav",
+      "Assets/Audio/Zombies/zmb_armored_attack_02.wav",
+      "Assets/Audio/Zombies/zmb_armored_attack_03.wav"
+    ],
+    "zmb_armored_bone": [
+      "Assets/Audio/Zombies/zmb_armored_bone_01.wav",
+      "Assets/Audio/Zombies/zmb_armored_bone_02.wav",
+      "Assets/Audio/Zombies/zmb_armored_bone_03.wav"
+    ],
+    "zmb_armored_breath": [
+      "Assets/Audio/Zombies/zmb_armored_breath_01.wav",
+      "Assets/Audio/Zombies/zmb_armored_breath_02.wav",
+      "Assets/Audio/Zombies/zmb_armored_breath_03.wav"
+    ],
+    "zmb_armored_death": [
+      "Assets/Audio/Zombies/zmb_armored_death_01.wav",
+      "Assets/Audio/Zombies/zmb_armored_death_02.wav",
+      "Assets/Audio/Zombies/zmb_armored_death_03.wav"
+    ],
+    "zmb_armored_scratch": [
+      "Assets/Audio/Zombies/zmb_armored_scratch_01.wav",
+      "Assets/Audio/Zombies/zmb_armored_scratch_02.wav",
+      "Assets/Audio/Zombies/zmb_armored_scratch_03.wav"
+    ],
+    "zmb_armored_scream_far": [
+      "Assets/Audio/Zombies/zmb_armored_scream_far_01.wav",
+      "Assets/Audio/Zombies/zmb_armored_scream_far_02.wav",
+      "Assets/Audio/Zombies/zmb_armored_scream_far_03.wav"
+    ],
+    "zmb_goliath_attack": [
+      "Assets/Audio/Zombies/zmb_goliath_attack_01.wav",
+      "Assets/Audio/Zombies/zmb_goliath_attack_02.wav"
+    ],
+    "zmb_goliath_bone": [
+      "Assets/Audio/Zombies/zmb_goliath_bone_01.wav",
+      "Assets/Audio/Zombies/zmb_goliath_bone_02.wav"
+    ],
+    "zmb_goliath_breath": [
+      "Assets/Audio/Zombies/zmb_goliath_breath_01.wav",
+      "Assets/Audio/Zombies/zmb_goliath_breath_02.wav"
+    ],
+    "zmb_goliath_death": [
+      "Assets/Audio/Zombies/zmb_goliath_death_01.wav",
+      "Assets/Audio/Zombies/zmb_goliath_death_02.wav"
+    ],
+    "zmb_goliath_enrage": [
+      "Assets/Audio/Zombies/zmb_goliath_enrage_01.wav",
+      "Assets/Audio/Zombies/zmb_goliath_enrage_02.wav"
+    ],
+    "zmb_goliath_roar_far": [
+      "Assets/Audio/Zombies/zmb_goliath_roar_far_01.wav",
+      "Assets/Audio/Zombies/zmb_goliath_roar_far_02.wav"
+    ],
+    "zmb_goliath_scratch": [
+      "Assets/Audio/Zombies/zmb_goliath_scratch_01.wav",
+      "Assets/Audio/Zombies/zmb_goliath_scratch_02.wav"
+    ],
+    "zmb_goliath_step": [
+      "Assets/Audio/Zombies/zmb_goliath_step_01.wav",
+      "Assets/Audio/Zombies/zmb_goliath_step_02.wav"
+    ],
+    "zmb_runner_attack": [
+      "Assets/Audio/Zombies/zmb_runner_attack_01.wav",
+      "Assets/Audio/Zombies/zmb_runner_attack_02.wav",
+      "Assets/Audio/Zombies/zmb_runner_attack_03.wav"
+    ],
+    "zmb_runner_bone": [
+      "Assets/Audio/Zombies/zmb_runner_bone_01.wav",
+      "Assets/Audio/Zombies/zmb_runner_bone_02.wav",
+      "Assets/Audio/Zombies/zmb_runner_bone_03.wav"
+    ],
+    "zmb_runner_breath": [
+      "Assets/Audio/Zombies/zmb_runner_breath_01.wav",
+      "Assets/Audio/Zombies/zmb_runner_breath_02.wav",
+      "Assets/Audio/Zombies/zmb_runner_breath_03.wav"
+    ],
+    "zmb_runner_death": [
+      "Assets/Audio/Zombies/zmb_runner_death_01.wav",
+      "Assets/Audio/Zombies/zmb_runner_death_02.wav",
+      "Assets/Audio/Zombies/zmb_runner_death_03.wav"
+    ],
+    "zmb_runner_scratch": [
+      "Assets/Audio/Zombies/zmb_runner_scratch_01.wav",
+      "Assets/Audio/Zombies/zmb_runner_scratch_02.wav",
+      "Assets/Audio/Zombies/zmb_runner_scratch_03.wav"
+    ],
+    "zmb_runner_scream_far": [
+      "Assets/Audio/Zombies/zmb_runner_scream_far_01.wav",
+      "Assets/Audio/Zombies/zmb_runner_scream_far_02.wav",
+      "Assets/Audio/Zombies/zmb_runner_scream_far_03.wav"
+    ],
+    "zmb_spit": [
+      "Assets/Audio/Zombies/zmb_spit_01.wav"
+    ],
+    "zmb_spit_hit": [
+      "Assets/Audio/Zombies/zmb_spit_hit_01.wav"
+    ],
+    "zmb_spitter_attack": [
+      "Assets/Audio/Zombies/zmb_spitter_attack_01.wav",
+      "Assets/Audio/Zombies/zmb_spitter_attack_02.wav",
+      "Assets/Audio/Zombies/zmb_spitter_attack_03.wav"
+    ],
+    "zmb_spitter_bone": [
+      "Assets/Audio/Zombies/zmb_spitter_bone_01.wav",
+      "Assets/Audio/Zombies/zmb_spitter_bone_02.wav",
+      "Assets/Audio/Zombies/zmb_spitter_bone_03.wav"
+    ],
+    "zmb_spitter_breath": [
+      "Assets/Audio/Zombies/zmb_spitter_breath_01.wav",
+      "Assets/Audio/Zombies/zmb_spitter_breath_02.wav",
+      "Assets/Audio/Zombies/zmb_spitter_breath_03.wav"
+    ],
+    "zmb_spitter_death": [
+      "Assets/Audio/Zombies/zmb_spitter_death_01.wav",
+      "Assets/Audio/Zombies/zmb_spitter_death_02.wav",
+      "Assets/Audio/Zombies/zmb_spitter_death_03.wav"
+    ],
+    "zmb_spitter_scratch": [
+      "Assets/Audio/Zombies/zmb_spitter_scratch_01.wav",
+      "Assets/Audio/Zombies/zmb_spitter_scratch_02.wav",
+      "Assets/Audio/Zombies/zmb_spitter_scratch_03.wav"
+    ],
+    "zmb_spitter_scream_far": [
+      "Assets/Audio/Zombies/zmb_spitter_scream_far_01.wav",
+      "Assets/Audio/Zombies/zmb_spitter_scream_far_02.wav",
+      "Assets/Audio/Zombies/zmb_spitter_scream_far_03.wav"
+    ],
+    "zmb_walker_attack": [
+      "Assets/Audio/Zombies/zmb_walker_attack_01.wav",
+      "Assets/Audio/Zombies/zmb_walker_attack_02.wav",
+      "Assets/Audio/Zombies/zmb_walker_attack_03.wav"
+    ],
+    "zmb_walker_bone": [
+      "Assets/Audio/Zombies/zmb_walker_bone_01.wav",
+      "Assets/Audio/Zombies/zmb_walker_bone_02.wav",
+      "Assets/Audio/Zombies/zmb_walker_bone_03.wav"
+    ],
+    "zmb_walker_breath": [
+      "Assets/Audio/Zombies/zmb_walker_breath_01.wav",
+      "Assets/Audio/Zombies/zmb_walker_breath_02.wav",
+      "Assets/Audio/Zombies/zmb_walker_breath_03.wav"
+    ],
+    "zmb_walker_death": [
+      "Assets/Audio/Zombies/zmb_walker_death_01.wav",
+      "Assets/Audio/Zombies/zmb_walker_death_02.wav",
+      "Assets/Audio/Zombies/zmb_walker_death_03.wav"
+    ],
+    "zmb_walker_scratch": [
+      "Assets/Audio/Zombies/zmb_walker_scratch_01.wav",
+      "Assets/Audio/Zombies/zmb_walker_scratch_02.wav",
+      "Assets/Audio/Zombies/zmb_walker_scratch_03.wav"
+    ],
+    "zmb_walker_scream_far": [
+      "Assets/Audio/Zombies/zmb_walker_scream_far_01.wav",
+      "Assets/Audio/Zombies/zmb_walker_scream_far_02.wav",
+      "Assets/Audio/Zombies/zmb_walker_scream_far_03.wav"
+    ]
+  },
+  "clips": [
+    {
+      "category": "Foley",
+      "stem": "bandage_01",
+      "base": "bandage",
+      "path": "Assets/Audio/Foley/bandage_01.wav",
+      "duration_sec": 0.78,
+      "peak_db": -1.0,
+      "rms_db": -16.87,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "barricade_build_01",
+      "base": "barricade_build",
+      "path": "Assets/Audio/Foley/barricade_build_01.wav",
+      "duration_sec": 1.05,
+      "peak_db": -1.0,
+      "rms_db": -15.885,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "cough_01",
+      "base": "cough",
+      "path": "Assets/Audio/Foley/cough_01.wav",
+      "duration_sec": 0.68,
+      "peak_db": -1.0,
+      "rms_db": -19.143,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "cough_02",
+      "base": "cough",
+      "path": "Assets/Audio/Foley/cough_02.wav",
+      "duration_sec": 0.68,
+      "peak_db": -1.0,
+      "rms_db": -21.44,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "craft_01",
+      "base": "craft",
+      "path": "Assets/Audio/Foley/craft_01.wav",
+      "duration_sec": 0.78,
+      "peak_db": -1.0,
+      "rms_db": -16.494,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "craft_02",
+      "base": "craft",
+      "path": "Assets/Audio/Foley/craft_02.wav",
+      "duration_sec": 0.78,
+      "peak_db": -1.0,
+      "rms_db": -16.437,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "door_close_01",
+      "base": "door_close",
+      "path": "Assets/Audio/Foley/door_close_01.wav",
+      "duration_sec": 0.58,
+      "peak_db": -1.0,
+      "rms_db": -18.354,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "door_close_02",
+      "base": "door_close",
+      "path": "Assets/Audio/Foley/door_close_02.wav",
+      "duration_sec": 0.58,
+      "peak_db": -1.0,
+      "rms_db": -18.354,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "door_creak_01",
+      "base": "door_creak",
+      "path": "Assets/Audio/Foley/door_creak_01.wav",
+      "duration_sec": 1.07,
+      "peak_db": -1.0,
+      "rms_db": -13.19,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "door_creak_02",
+      "base": "door_creak",
+      "path": "Assets/Audio/Foley/door_creak_02.wav",
+      "duration_sec": 1.19,
+      "peak_db": -1.0,
+      "rms_db": -13.532,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "door_locked_01",
+      "base": "door_locked",
+      "path": "Assets/Audio/Foley/door_locked_01.wav",
+      "duration_sec": 0.42,
+      "peak_db": -1.0,
+      "rms_db": -19.153,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "door_locked_02",
+      "base": "door_locked",
+      "path": "Assets/Audio/Foley/door_locked_02.wav",
+      "duration_sec": 0.42,
+      "peak_db": -1.0,
+      "rms_db": -19.153,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "door_open_01",
+      "base": "door_open",
+      "path": "Assets/Audio/Foley/door_open_01.wav",
+      "duration_sec": 0.65,
+      "peak_db": -1.0,
+      "rms_db": -21.926,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "door_open_02",
+      "base": "door_open",
+      "path": "Assets/Audio/Foley/door_open_02.wav",
+      "duration_sec": 0.65,
+      "peak_db": -1.0,
+      "rms_db": -21.521,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "drink_01",
+      "base": "drink",
+      "path": "Assets/Audio/Foley/drink_01.wav",
+      "duration_sec": 0.72,
+      "peak_db": -1.0,
+      "rms_db": -12.896,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "drip_01",
+      "base": "drip",
+      "path": "Assets/Audio/Foley/drip_01.wav",
+      "duration_sec": 0.28,
+      "peak_db": -1.0,
+      "rms_db": -16.317,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "drip_02",
+      "base": "drip",
+      "path": "Assets/Audio/Foley/drip_02.wav",
+      "duration_sec": 0.28,
+      "peak_db": -1.0,
+      "rms_db": -16.304,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "eat_01",
+      "base": "eat",
+      "path": "Assets/Audio/Foley/eat_01.wav",
+      "duration_sec": 0.65,
+      "peak_db": -1.0,
+      "rms_db": -19.761,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "elevator_ding_01",
+      "base": "elevator_ding",
+      "path": "Assets/Audio/Foley/elevator_ding_01.wav",
+      "duration_sec": 0.95,
+      "peak_db": -1.0,
+      "rms_db": -13.385,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "elevator_door_01",
+      "base": "elevator_door",
+      "path": "Assets/Audio/Foley/elevator_door_01.wav",
+      "duration_sec": 1.15,
+      "peak_db": -1.0,
+      "rms_db": -19.583,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "elevator_move_01",
+      "base": "elevator_move",
+      "path": "Assets/Audio/Foley/elevator_move_01.wav",
+      "duration_sec": 1.65,
+      "peak_db": -1.0,
+      "rms_db": -10.496,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "flashlight_click_01",
+      "base": "flashlight_click",
+      "path": "Assets/Audio/Foley/flashlight_click_01.wav",
+      "duration_sec": 0.14,
+      "peak_db": -1.0,
+      "rms_db": -19.201,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "generator_loop_01",
+      "base": "generator_loop",
+      "path": "Assets/Audio/Foley/generator_loop_01.wav",
+      "duration_sec": 3.55,
+      "peak_db": -1.0,
+      "rms_db": -8.976,
+      "is_loop": true,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "generator_start_01",
+      "base": "generator_start",
+      "path": "Assets/Audio/Foley/generator_start_01.wav",
+      "duration_sec": 1.85,
+      "peak_db": -1.0,
+      "rms_db": -7.812,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "generator_stop_01",
+      "base": "generator_stop",
+      "path": "Assets/Audio/Foley/generator_stop_01.wav",
+      "duration_sec": 1.45,
+      "peak_db": -1.0,
+      "rms_db": -16.055,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "hammer_01",
+      "base": "hammer",
+      "path": "Assets/Audio/Foley/hammer_01.wav",
+      "duration_sec": 0.18,
+      "peak_db": -1.0,
+      "rms_db": -16.476,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "hammer_02",
+      "base": "hammer",
+      "path": "Assets/Audio/Foley/hammer_02.wav",
+      "duration_sec": 0.18,
+      "peak_db": -1.0,
+      "rms_db": -16.647,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "inject_01",
+      "base": "inject",
+      "path": "Assets/Audio/Foley/inject_01.wav",
+      "duration_sec": 0.52,
+      "peak_db": -1.0,
+      "rms_db": -21.63,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "jump_land_01",
+      "base": "jump_land",
+      "path": "Assets/Audio/Foley/jump_land_01.wav",
+      "duration_sec": 0.45,
+      "peak_db": -1.0,
+      "rms_db": -15.533,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "jump_land_02",
+      "base": "jump_land",
+      "path": "Assets/Audio/Foley/jump_land_02.wav",
+      "duration_sec": 0.45,
+      "peak_db": -1.0,
+      "rms_db": -15.522,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "lock_break_01",
+      "base": "lock_break",
+      "path": "Assets/Audio/Foley/lock_break_01.wav",
+      "duration_sec": 0.18,
+      "peak_db": -1.0,
+      "rms_db": -14.83,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "lockpick_01",
+      "base": "lockpick",
+      "path": "Assets/Audio/Foley/lockpick_01.wav",
+      "duration_sec": 0.55,
+      "peak_db": -1.0,
+      "rms_db": -17.439,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "lockpick_02",
+      "base": "lockpick",
+      "path": "Assets/Audio/Foley/lockpick_02.wav",
+      "duration_sec": 0.55,
+      "peak_db": -1.0,
+      "rms_db": -17.438,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "pickup_ammo_01",
+      "base": "pickup_ammo",
+      "path": "Assets/Audio/Foley/pickup_ammo_01.wav",
+      "duration_sec": 0.36,
+      "peak_db": -1.0,
+      "rms_db": -15.441,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "pickup_battery_01",
+      "base": "pickup_battery",
+      "path": "Assets/Audio/Foley/pickup_battery_01.wav",
+      "duration_sec": 0.36,
+      "peak_db": -1.0,
+      "rms_db": -18.783,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "pickup_book_01",
+      "base": "pickup_book",
+      "path": "Assets/Audio/Foley/pickup_book_01.wav",
+      "duration_sec": 0.36,
+      "peak_db": -1.0,
+      "rms_db": -17.347,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "pickup_bottle_01",
+      "base": "pickup_bottle",
+      "path": "Assets/Audio/Foley/pickup_bottle_01.wav",
+      "duration_sec": 0.36,
+      "peak_db": -1.0,
+      "rms_db": -15.871,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "pickup_can_01",
+      "base": "pickup_can",
+      "path": "Assets/Audio/Foley/pickup_can_01.wav",
+      "duration_sec": 0.36,
+      "peak_db": -1.0,
+      "rms_db": -15.241,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "pickup_card_01",
+      "base": "pickup_card",
+      "path": "Assets/Audio/Foley/pickup_card_01.wav",
+      "duration_sec": 0.36,
+      "peak_db": -1.0,
+      "rms_db": -18.591,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "pickup_chem_01",
+      "base": "pickup_chem",
+      "path": "Assets/Audio/Foley/pickup_chem_01.wav",
+      "duration_sec": 0.36,
+      "peak_db": -1.0,
+      "rms_db": -15.811,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "pickup_cloth_01",
+      "base": "pickup_cloth",
+      "path": "Assets/Audio/Foley/pickup_cloth_01.wav",
+      "duration_sec": 0.36,
+      "peak_db": -1.0,
+      "rms_db": -15.58,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "pickup_coin_01",
+      "base": "pickup_coin",
+      "path": "Assets/Audio/Foley/pickup_coin_01.wav",
+      "duration_sec": 0.36,
+      "peak_db": -1.0,
+      "rms_db": -13.72,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "pickup_electronics_01",
+      "base": "pickup_electronics",
+      "path": "Assets/Audio/Foley/pickup_electronics_01.wav",
+      "duration_sec": 0.36,
+      "peak_db": -1.0,
+      "rms_db": -18.419,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "pickup_food_01",
+      "base": "pickup_food",
+      "path": "Assets/Audio/Foley/pickup_food_01.wav",
+      "duration_sec": 0.36,
+      "peak_db": -1.0,
+      "rms_db": -14.638,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "pickup_glass_01",
+      "base": "pickup_glass",
+      "path": "Assets/Audio/Foley/pickup_glass_01.wav",
+      "duration_sec": 0.36,
+      "peak_db": -1.0,
+      "rms_db": -15.896,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "pickup_key_01",
+      "base": "pickup_key",
+      "path": "Assets/Audio/Foley/pickup_key_01.wav",
+      "duration_sec": 0.36,
+      "peak_db": -1.0,
+      "rms_db": -13.661,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "pickup_med_01",
+      "base": "pickup_med",
+      "path": "Assets/Audio/Foley/pickup_med_01.wav",
+      "duration_sec": 0.36,
+      "peak_db": -1.0,
+      "rms_db": -14.722,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "pickup_metal_01",
+      "base": "pickup_metal",
+      "path": "Assets/Audio/Foley/pickup_metal_01.wav",
+      "duration_sec": 0.36,
+      "peak_db": -1.0,
+      "rms_db": -15.237,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "pickup_paper_01",
+      "base": "pickup_paper",
+      "path": "Assets/Audio/Foley/pickup_paper_01.wav",
+      "duration_sec": 0.36,
+      "peak_db": -1.0,
+      "rms_db": -13.861,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "pickup_plastic_01",
+      "base": "pickup_plastic",
+      "path": "Assets/Audio/Foley/pickup_plastic_01.wav",
+      "duration_sec": 0.36,
+      "peak_db": -1.0,
+      "rms_db": -18.752,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "pickup_tool_01",
+      "base": "pickup_tool",
+      "path": "Assets/Audio/Foley/pickup_tool_01.wav",
+      "duration_sec": 0.36,
+      "peak_db": -1.0,
+      "rms_db": -15.249,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "pickup_weapon_01",
+      "base": "pickup_weapon",
+      "path": "Assets/Audio/Foley/pickup_weapon_01.wav",
+      "duration_sec": 0.36,
+      "peak_db": -1.0,
+      "rms_db": -15.645,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "pickup_wood_01",
+      "base": "pickup_wood",
+      "path": "Assets/Audio/Foley/pickup_wood_01.wav",
+      "duration_sec": 0.36,
+      "peak_db": -1.0,
+      "rms_db": -18.885,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "radio_beep_01",
+      "base": "radio_beep",
+      "path": "Assets/Audio/Foley/radio_beep_01.wav",
+      "duration_sec": 0.22,
+      "peak_db": -1.0,
+      "rms_db": -7.851,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "radio_squelch_01",
+      "base": "radio_squelch",
+      "path": "Assets/Audio/Foley/radio_squelch_01.wav",
+      "duration_sec": 0.18,
+      "peak_db": -1.0,
+      "rms_db": -16.034,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "radio_static_01",
+      "base": "radio_static",
+      "path": "Assets/Audio/Foley/radio_static_01.wav",
+      "duration_sec": 1.0,
+      "peak_db": -1.0,
+      "rms_db": -14.507,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "radio_static_02",
+      "base": "radio_static",
+      "path": "Assets/Audio/Foley/radio_static_02.wav",
+      "duration_sec": 1.15,
+      "peak_db": -1.0,
+      "rms_db": -14.751,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "radio_tune_01",
+      "base": "radio_tune",
+      "path": "Assets/Audio/Foley/radio_tune_01.wav",
+      "duration_sec": 0.75,
+      "peak_db": -1.0,
+      "rms_db": -9.327,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "radio_voice_01",
+      "base": "radio_voice",
+      "path": "Assets/Audio/Foley/radio_voice_01.wav",
+      "duration_sec": 1.27,
+      "peak_db": -1.0,
+      "rms_db": -13.077,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "radio_voice_02",
+      "base": "radio_voice",
+      "path": "Assets/Audio/Foley/radio_voice_02.wav",
+      "duration_sec": 1.39,
+      "peak_db": -1.0,
+      "rms_db": -13.52,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_concrete_crouch_01",
+      "base": "step_concrete_crouch",
+      "path": "Assets/Audio/Foley/step_concrete_crouch_01.wav",
+      "duration_sec": 0.34,
+      "peak_db": -1.0,
+      "rms_db": -15.682,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_concrete_crouch_02",
+      "base": "step_concrete_crouch",
+      "path": "Assets/Audio/Foley/step_concrete_crouch_02.wav",
+      "duration_sec": 0.34,
+      "peak_db": -1.0,
+      "rms_db": -15.669,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_concrete_crouch_03",
+      "base": "step_concrete_crouch",
+      "path": "Assets/Audio/Foley/step_concrete_crouch_03.wav",
+      "duration_sec": 0.34,
+      "peak_db": -1.0,
+      "rms_db": -15.703,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_concrete_run_01",
+      "base": "step_concrete_run",
+      "path": "Assets/Audio/Foley/step_concrete_run_01.wav",
+      "duration_sec": 0.22,
+      "peak_db": -1.0,
+      "rms_db": -16.102,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_concrete_run_02",
+      "base": "step_concrete_run",
+      "path": "Assets/Audio/Foley/step_concrete_run_02.wav",
+      "duration_sec": 0.22,
+      "peak_db": -1.0,
+      "rms_db": -16.081,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_concrete_run_03",
+      "base": "step_concrete_run",
+      "path": "Assets/Audio/Foley/step_concrete_run_03.wav",
+      "duration_sec": 0.22,
+      "peak_db": -1.0,
+      "rms_db": -16.075,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_concrete_walk_01",
+      "base": "step_concrete_walk",
+      "path": "Assets/Audio/Foley/step_concrete_walk_01.wav",
+      "duration_sec": 0.28,
+      "peak_db": -1.0,
+      "rms_db": -15.525,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_concrete_walk_02",
+      "base": "step_concrete_walk",
+      "path": "Assets/Audio/Foley/step_concrete_walk_02.wav",
+      "duration_sec": 0.28,
+      "peak_db": -1.0,
+      "rms_db": -15.479,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_concrete_walk_03",
+      "base": "step_concrete_walk",
+      "path": "Assets/Audio/Foley/step_concrete_walk_03.wav",
+      "duration_sec": 0.28,
+      "peak_db": -1.0,
+      "rms_db": -15.503,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_glass_crouch_01",
+      "base": "step_glass_crouch",
+      "path": "Assets/Audio/Foley/step_glass_crouch_01.wav",
+      "duration_sec": 0.34,
+      "peak_db": -1.0,
+      "rms_db": -17.149,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_glass_crouch_02",
+      "base": "step_glass_crouch",
+      "path": "Assets/Audio/Foley/step_glass_crouch_02.wav",
+      "duration_sec": 0.34,
+      "peak_db": -1.0,
+      "rms_db": -18.164,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_glass_crouch_03",
+      "base": "step_glass_crouch",
+      "path": "Assets/Audio/Foley/step_glass_crouch_03.wav",
+      "duration_sec": 0.34,
+      "peak_db": -1.0,
+      "rms_db": -17.581,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_glass_run_01",
+      "base": "step_glass_run",
+      "path": "Assets/Audio/Foley/step_glass_run_01.wav",
+      "duration_sec": 0.22,
+      "peak_db": -1.0,
+      "rms_db": -17.378,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_glass_run_02",
+      "base": "step_glass_run",
+      "path": "Assets/Audio/Foley/step_glass_run_02.wav",
+      "duration_sec": 0.22,
+      "peak_db": -1.0,
+      "rms_db": -16.639,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_glass_run_03",
+      "base": "step_glass_run",
+      "path": "Assets/Audio/Foley/step_glass_run_03.wav",
+      "duration_sec": 0.22,
+      "peak_db": -1.0,
+      "rms_db": -16.74,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_glass_walk_01",
+      "base": "step_glass_walk",
+      "path": "Assets/Audio/Foley/step_glass_walk_01.wav",
+      "duration_sec": 0.28,
+      "peak_db": -1.0,
+      "rms_db": -16.331,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_glass_walk_02",
+      "base": "step_glass_walk",
+      "path": "Assets/Audio/Foley/step_glass_walk_02.wav",
+      "duration_sec": 0.28,
+      "peak_db": -1.0,
+      "rms_db": -15.66,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_glass_walk_03",
+      "base": "step_glass_walk",
+      "path": "Assets/Audio/Foley/step_glass_walk_03.wav",
+      "duration_sec": 0.28,
+      "peak_db": -1.0,
+      "rms_db": -16.352,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_metalstair_crouch_01",
+      "base": "step_metalstair_crouch",
+      "path": "Assets/Audio/Foley/step_metalstair_crouch_01.wav",
+      "duration_sec": 0.34,
+      "peak_db": -1.0,
+      "rms_db": -17.137,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_metalstair_crouch_02",
+      "base": "step_metalstair_crouch",
+      "path": "Assets/Audio/Foley/step_metalstair_crouch_02.wav",
+      "duration_sec": 0.34,
+      "peak_db": -1.0,
+      "rms_db": -17.243,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_metalstair_crouch_03",
+      "base": "step_metalstair_crouch",
+      "path": "Assets/Audio/Foley/step_metalstair_crouch_03.wav",
+      "duration_sec": 0.34,
+      "peak_db": -1.0,
+      "rms_db": -17.68,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_metalstair_run_01",
+      "base": "step_metalstair_run",
+      "path": "Assets/Audio/Foley/step_metalstair_run_01.wav",
+      "duration_sec": 0.22,
+      "peak_db": -1.0,
+      "rms_db": -17.515,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_metalstair_run_02",
+      "base": "step_metalstair_run",
+      "path": "Assets/Audio/Foley/step_metalstair_run_02.wav",
+      "duration_sec": 0.22,
+      "peak_db": -1.0,
+      "rms_db": -17.662,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_metalstair_run_03",
+      "base": "step_metalstair_run",
+      "path": "Assets/Audio/Foley/step_metalstair_run_03.wav",
+      "duration_sec": 0.22,
+      "peak_db": -1.0,
+      "rms_db": -18.077,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_metalstair_walk_01",
+      "base": "step_metalstair_walk",
+      "path": "Assets/Audio/Foley/step_metalstair_walk_01.wav",
+      "duration_sec": 0.28,
+      "peak_db": -1.0,
+      "rms_db": -17.377,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_metalstair_walk_02",
+      "base": "step_metalstair_walk",
+      "path": "Assets/Audio/Foley/step_metalstair_walk_02.wav",
+      "duration_sec": 0.28,
+      "peak_db": -1.0,
+      "rms_db": -17.499,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_metalstair_walk_03",
+      "base": "step_metalstair_walk",
+      "path": "Assets/Audio/Foley/step_metalstair_walk_03.wav",
+      "duration_sec": 0.28,
+      "peak_db": -1.0,
+      "rms_db": -17.927,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_parquet_crouch_01",
+      "base": "step_parquet_crouch",
+      "path": "Assets/Audio/Foley/step_parquet_crouch_01.wav",
+      "duration_sec": 0.34,
+      "peak_db": -1.0,
+      "rms_db": -14.833,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_parquet_crouch_02",
+      "base": "step_parquet_crouch",
+      "path": "Assets/Audio/Foley/step_parquet_crouch_02.wav",
+      "duration_sec": 0.34,
+      "peak_db": -1.0,
+      "rms_db": -14.842,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_parquet_crouch_03",
+      "base": "step_parquet_crouch",
+      "path": "Assets/Audio/Foley/step_parquet_crouch_03.wav",
+      "duration_sec": 0.34,
+      "peak_db": -1.0,
+      "rms_db": -14.835,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_parquet_run_01",
+      "base": "step_parquet_run",
+      "path": "Assets/Audio/Foley/step_parquet_run_01.wav",
+      "duration_sec": 0.22,
+      "peak_db": -1.0,
+      "rms_db": -15.423,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_parquet_run_02",
+      "base": "step_parquet_run",
+      "path": "Assets/Audio/Foley/step_parquet_run_02.wav",
+      "duration_sec": 0.22,
+      "peak_db": -1.0,
+      "rms_db": -15.416,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_parquet_run_03",
+      "base": "step_parquet_run",
+      "path": "Assets/Audio/Foley/step_parquet_run_03.wav",
+      "duration_sec": 0.22,
+      "peak_db": -1.0,
+      "rms_db": -15.416,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_parquet_walk_01",
+      "base": "step_parquet_walk",
+      "path": "Assets/Audio/Foley/step_parquet_walk_01.wav",
+      "duration_sec": 0.28,
+      "peak_db": -1.0,
+      "rms_db": -15.121,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_parquet_walk_02",
+      "base": "step_parquet_walk",
+      "path": "Assets/Audio/Foley/step_parquet_walk_02.wav",
+      "duration_sec": 0.28,
+      "peak_db": -1.0,
+      "rms_db": -15.108,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_parquet_walk_03",
+      "base": "step_parquet_walk",
+      "path": "Assets/Audio/Foley/step_parquet_walk_03.wav",
+      "duration_sec": 0.28,
+      "peak_db": -1.0,
+      "rms_db": -15.1,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_tile_crouch_01",
+      "base": "step_tile_crouch",
+      "path": "Assets/Audio/Foley/step_tile_crouch_01.wav",
+      "duration_sec": 0.34,
+      "peak_db": -1.0,
+      "rms_db": -21.336,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_tile_crouch_02",
+      "base": "step_tile_crouch",
+      "path": "Assets/Audio/Foley/step_tile_crouch_02.wav",
+      "duration_sec": 0.34,
+      "peak_db": -1.0,
+      "rms_db": -21.322,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_tile_crouch_03",
+      "base": "step_tile_crouch",
+      "path": "Assets/Audio/Foley/step_tile_crouch_03.wav",
+      "duration_sec": 0.34,
+      "peak_db": -1.0,
+      "rms_db": -21.195,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_tile_run_01",
+      "base": "step_tile_run",
+      "path": "Assets/Audio/Foley/step_tile_run_01.wav",
+      "duration_sec": 0.22,
+      "peak_db": -1.0,
+      "rms_db": -19.454,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_tile_run_02",
+      "base": "step_tile_run",
+      "path": "Assets/Audio/Foley/step_tile_run_02.wav",
+      "duration_sec": 0.22,
+      "peak_db": -1.0,
+      "rms_db": -19.455,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_tile_run_03",
+      "base": "step_tile_run",
+      "path": "Assets/Audio/Foley/step_tile_run_03.wav",
+      "duration_sec": 0.22,
+      "peak_db": -1.0,
+      "rms_db": -19.317,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_tile_walk_01",
+      "base": "step_tile_walk",
+      "path": "Assets/Audio/Foley/step_tile_walk_01.wav",
+      "duration_sec": 0.28,
+      "peak_db": -1.0,
+      "rms_db": -20.479,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_tile_walk_02",
+      "base": "step_tile_walk",
+      "path": "Assets/Audio/Foley/step_tile_walk_02.wav",
+      "duration_sec": 0.28,
+      "peak_db": -1.0,
+      "rms_db": -20.48,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_tile_walk_03",
+      "base": "step_tile_walk",
+      "path": "Assets/Audio/Foley/step_tile_walk_03.wav",
+      "duration_sec": 0.28,
+      "peak_db": -1.0,
+      "rms_db": -20.348,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_water_crouch_01",
+      "base": "step_water_crouch",
+      "path": "Assets/Audio/Foley/step_water_crouch_01.wav",
+      "duration_sec": 0.34,
+      "peak_db": -1.0,
+      "rms_db": -14.304,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_water_crouch_02",
+      "base": "step_water_crouch",
+      "path": "Assets/Audio/Foley/step_water_crouch_02.wav",
+      "duration_sec": 0.34,
+      "peak_db": -1.0,
+      "rms_db": -14.522,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_water_crouch_03",
+      "base": "step_water_crouch",
+      "path": "Assets/Audio/Foley/step_water_crouch_03.wav",
+      "duration_sec": 0.34,
+      "peak_db": -1.0,
+      "rms_db": -12.891,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_water_run_01",
+      "base": "step_water_run",
+      "path": "Assets/Audio/Foley/step_water_run_01.wav",
+      "duration_sec": 0.22,
+      "peak_db": -1.0,
+      "rms_db": -15.051,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_water_run_02",
+      "base": "step_water_run",
+      "path": "Assets/Audio/Foley/step_water_run_02.wav",
+      "duration_sec": 0.22,
+      "peak_db": -1.0,
+      "rms_db": -13.169,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_water_run_03",
+      "base": "step_water_run",
+      "path": "Assets/Audio/Foley/step_water_run_03.wav",
+      "duration_sec": 0.22,
+      "peak_db": -1.0,
+      "rms_db": -12.612,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_water_walk_01",
+      "base": "step_water_walk",
+      "path": "Assets/Audio/Foley/step_water_walk_01.wav",
+      "duration_sec": 0.28,
+      "peak_db": -1.0,
+      "rms_db": -14.134,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_water_walk_02",
+      "base": "step_water_walk",
+      "path": "Assets/Audio/Foley/step_water_walk_02.wav",
+      "duration_sec": 0.28,
+      "peak_db": -1.0,
+      "rms_db": -16.0,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Foley",
+      "stem": "step_water_walk_03",
+      "base": "step_water_walk",
+      "path": "Assets/Audio/Foley/step_water_walk_03.wav",
+      "duration_sec": 0.28,
+      "peak_db": -1.0,
+      "rms_db": -13.787,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "bullet_whiz_01",
+      "base": "bullet_whiz",
+      "path": "Assets/Audio/Weapons/bullet_whiz_01.wav",
+      "duration_sec": 0.32,
+      "peak_db": -1.0,
+      "rms_db": -9.147,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "bullet_whiz_02",
+      "base": "bullet_whiz",
+      "path": "Assets/Audio/Weapons/bullet_whiz_02.wav",
+      "duration_sec": 0.32,
+      "peak_db": -1.0,
+      "rms_db": -9.462,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "explosion_01",
+      "base": "explosion",
+      "path": "Assets/Audio/Weapons/explosion_01.wav",
+      "duration_sec": 1.8985,
+      "peak_db": -1.0,
+      "rms_db": -12.263,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "explosion_02",
+      "base": "explosion",
+      "path": "Assets/Audio/Weapons/explosion_02.wav",
+      "duration_sec": 2.0407,
+      "peak_db": -1.0,
+      "rms_db": -12.311,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "impact_concrete_01",
+      "base": "impact_concrete",
+      "path": "Assets/Audio/Weapons/impact_concrete_01.wav",
+      "duration_sec": 0.38,
+      "peak_db": -1.0,
+      "rms_db": -18.529,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "impact_glass_01",
+      "base": "impact_glass",
+      "path": "Assets/Audio/Weapons/impact_glass_01.wav",
+      "duration_sec": 0.38,
+      "peak_db": -1.0,
+      "rms_db": -15.292,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "impact_metal_01",
+      "base": "impact_metal",
+      "path": "Assets/Audio/Weapons/impact_metal_01.wav",
+      "duration_sec": 0.38,
+      "peak_db": -1.0,
+      "rms_db": -12.91,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "melee_hit_bone_01",
+      "base": "melee_hit_bone",
+      "path": "Assets/Audio/Weapons/melee_hit_bone_01.wav",
+      "duration_sec": 0.44,
+      "peak_db": -1.0,
+      "rms_db": -15.466,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "melee_hit_bone_02",
+      "base": "melee_hit_bone",
+      "path": "Assets/Audio/Weapons/melee_hit_bone_02.wav",
+      "duration_sec": 0.44,
+      "peak_db": -1.0,
+      "rms_db": -15.502,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "melee_hit_flesh_01",
+      "base": "melee_hit_flesh",
+      "path": "Assets/Audio/Weapons/melee_hit_flesh_01.wav",
+      "duration_sec": 0.44,
+      "peak_db": -1.0,
+      "rms_db": -13.916,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "melee_hit_flesh_02",
+      "base": "melee_hit_flesh",
+      "path": "Assets/Audio/Weapons/melee_hit_flesh_02.wav",
+      "duration_sec": 0.44,
+      "peak_db": -1.0,
+      "rms_db": -13.892,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "melee_hit_metal_01",
+      "base": "melee_hit_metal",
+      "path": "Assets/Audio/Weapons/melee_hit_metal_01.wav",
+      "duration_sec": 0.44,
+      "peak_db": -1.0,
+      "rms_db": -11.644,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "melee_hit_metal_02",
+      "base": "melee_hit_metal",
+      "path": "Assets/Audio/Weapons/melee_hit_metal_02.wav",
+      "duration_sec": 0.44,
+      "peak_db": -1.0,
+      "rms_db": -11.5,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "melee_swing_axe_01",
+      "base": "melee_swing_axe",
+      "path": "Assets/Audio/Weapons/melee_swing_axe_01.wav",
+      "duration_sec": 0.42,
+      "peak_db": -1.0,
+      "rms_db": -13.357,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "melee_swing_bat_01",
+      "base": "melee_swing_bat",
+      "path": "Assets/Audio/Weapons/melee_swing_bat_01.wav",
+      "duration_sec": 0.38,
+      "peak_db": -1.0,
+      "rms_db": -15.661,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "melee_swing_machete_01",
+      "base": "melee_swing_machete",
+      "path": "Assets/Audio/Weapons/melee_swing_machete_01.wav",
+      "duration_sec": 0.28,
+      "peak_db": -1.0,
+      "rms_db": -14.46,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "melee_swing_pipe_01",
+      "base": "melee_swing_pipe",
+      "path": "Assets/Audio/Weapons/melee_swing_pipe_01.wav",
+      "duration_sec": 0.34,
+      "peak_db": -1.0,
+      "rms_db": -15.38,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "molotov_01",
+      "base": "molotov",
+      "path": "Assets/Audio/Weapons/molotov_01.wav",
+      "duration_sec": 1.65,
+      "peak_db": -1.0,
+      "rms_db": -16.153,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "molotov_02",
+      "base": "molotov",
+      "path": "Assets/Audio/Weapons/molotov_02.wav",
+      "duration_sec": 1.65,
+      "peak_db": -1.0,
+      "rms_db": -15.861,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "shell_concrete_01",
+      "base": "shell_concrete",
+      "path": "Assets/Audio/Weapons/shell_concrete_01.wav",
+      "duration_sec": 0.48,
+      "peak_db": -1.0,
+      "rms_db": -23.056,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "shell_concrete_02",
+      "base": "shell_concrete",
+      "path": "Assets/Audio/Weapons/shell_concrete_02.wav",
+      "duration_sec": 0.48,
+      "peak_db": -1.0,
+      "rms_db": -22.31,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "shell_metal_01",
+      "base": "shell_metal",
+      "path": "Assets/Audio/Weapons/shell_metal_01.wav",
+      "duration_sec": 0.48,
+      "peak_db": -1.0,
+      "rms_db": -19.986,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "shell_metal_02",
+      "base": "shell_metal",
+      "path": "Assets/Audio/Weapons/shell_metal_02.wav",
+      "duration_sec": 0.48,
+      "peak_db": -1.0,
+      "rms_db": -20.305,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "shell_wood_01",
+      "base": "shell_wood",
+      "path": "Assets/Audio/Weapons/shell_wood_01.wav",
+      "duration_sec": 0.48,
+      "peak_db": -1.0,
+      "rms_db": -23.317,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "shell_wood_02",
+      "base": "shell_wood",
+      "path": "Assets/Audio/Weapons/shell_wood_02.wav",
+      "duration_sec": 0.48,
+      "peak_db": -1.0,
+      "rms_db": -23.864,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_pistol_draw_01",
+      "base": "wpn_pistol_draw",
+      "path": "Assets/Audio/Weapons/wpn_pistol_draw_01.wav",
+      "duration_sec": 0.4044,
+      "peak_db": -1.0,
+      "rms_db": -20.085,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_pistol_draw_02",
+      "base": "wpn_pistol_draw",
+      "path": "Assets/Audio/Weapons/wpn_pistol_draw_02.wav",
+      "duration_sec": 0.3915,
+      "peak_db": -1.0,
+      "rms_db": -19.965,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_pistol_echo_01",
+      "base": "wpn_pistol_echo",
+      "path": "Assets/Audio/Weapons/wpn_pistol_echo_01.wav",
+      "duration_sec": 1.1178,
+      "peak_db": -1.0,
+      "rms_db": -20.891,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_pistol_echo_02",
+      "base": "wpn_pistol_echo",
+      "path": "Assets/Audio/Weapons/wpn_pistol_echo_02.wav",
+      "duration_sec": 1.0944,
+      "peak_db": -1.0,
+      "rms_db": -17.684,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_pistol_empty_01",
+      "base": "wpn_pistol_empty",
+      "path": "Assets/Audio/Weapons/wpn_pistol_empty_01.wav",
+      "duration_sec": 0.156,
+      "peak_db": -1.0,
+      "rms_db": -20.038,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_pistol_empty_02",
+      "base": "wpn_pistol_empty",
+      "path": "Assets/Audio/Weapons/wpn_pistol_empty_02.wav",
+      "duration_sec": 0.1613,
+      "peak_db": -1.0,
+      "rms_db": -20.352,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_pistol_fire_01",
+      "base": "wpn_pistol_fire",
+      "path": "Assets/Audio/Weapons/wpn_pistol_fire_01.wav",
+      "duration_sec": 0.4467,
+      "peak_db": -1.0,
+      "rms_db": -14.22,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_pistol_fire_02",
+      "base": "wpn_pistol_fire",
+      "path": "Assets/Audio/Weapons/wpn_pistol_fire_02.wav",
+      "duration_sec": 0.4165,
+      "peak_db": -1.0,
+      "rms_db": -14.175,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_pistol_reload_in_01",
+      "base": "wpn_pistol_reload_in",
+      "path": "Assets/Audio/Weapons/wpn_pistol_reload_in_01.wav",
+      "duration_sec": 0.5928,
+      "peak_db": -1.0,
+      "rms_db": -21.074,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_pistol_reload_in_02",
+      "base": "wpn_pistol_reload_in",
+      "path": "Assets/Audio/Weapons/wpn_pistol_reload_in_02.wav",
+      "duration_sec": 0.5847,
+      "peak_db": -1.0,
+      "rms_db": -20.713,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_pistol_reload_out_01",
+      "base": "wpn_pistol_reload_out",
+      "path": "Assets/Audio/Weapons/wpn_pistol_reload_out_01.wav",
+      "duration_sec": 0.4938,
+      "peak_db": -1.0,
+      "rms_db": -21.383,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_pistol_reload_out_02",
+      "base": "wpn_pistol_reload_out",
+      "path": "Assets/Audio/Weapons/wpn_pistol_reload_out_02.wav",
+      "duration_sec": 0.4958,
+      "peak_db": -1.0,
+      "rms_db": -21.984,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_revolver_draw_01",
+      "base": "wpn_revolver_draw",
+      "path": "Assets/Audio/Weapons/wpn_revolver_draw_01.wav",
+      "duration_sec": 0.4275,
+      "peak_db": -1.0,
+      "rms_db": -19.412,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_revolver_draw_02",
+      "base": "wpn_revolver_draw",
+      "path": "Assets/Audio/Weapons/wpn_revolver_draw_02.wav",
+      "duration_sec": 0.449,
+      "peak_db": -1.0,
+      "rms_db": -20.554,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_revolver_echo_01",
+      "base": "wpn_revolver_echo",
+      "path": "Assets/Audio/Weapons/wpn_revolver_echo_01.wav",
+      "duration_sec": 1.3976,
+      "peak_db": -1.0,
+      "rms_db": -17.566,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_revolver_echo_02",
+      "base": "wpn_revolver_echo",
+      "path": "Assets/Audio/Weapons/wpn_revolver_echo_02.wav",
+      "duration_sec": 1.5015,
+      "peak_db": -1.0,
+      "rms_db": -18.109,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_revolver_empty_01",
+      "base": "wpn_revolver_empty",
+      "path": "Assets/Audio/Weapons/wpn_revolver_empty_01.wav",
+      "duration_sec": 0.1526,
+      "peak_db": -1.0,
+      "rms_db": -20.422,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_revolver_empty_02",
+      "base": "wpn_revolver_empty",
+      "path": "Assets/Audio/Weapons/wpn_revolver_empty_02.wav",
+      "duration_sec": 0.1723,
+      "peak_db": -1.0,
+      "rms_db": -20.776,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_revolver_fire_01",
+      "base": "wpn_revolver_fire",
+      "path": "Assets/Audio/Weapons/wpn_revolver_fire_01.wav",
+      "duration_sec": 0.6261,
+      "peak_db": -1.0,
+      "rms_db": -12.245,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_revolver_fire_02",
+      "base": "wpn_revolver_fire",
+      "path": "Assets/Audio/Weapons/wpn_revolver_fire_02.wav",
+      "duration_sec": 0.6172,
+      "peak_db": -1.0,
+      "rms_db": -11.827,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_revolver_reload_in_01",
+      "base": "wpn_revolver_reload_in",
+      "path": "Assets/Audio/Weapons/wpn_revolver_reload_in_01.wav",
+      "duration_sec": 0.5654,
+      "peak_db": -1.0,
+      "rms_db": -20.783,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_revolver_reload_in_02",
+      "base": "wpn_revolver_reload_in",
+      "path": "Assets/Audio/Weapons/wpn_revolver_reload_in_02.wav",
+      "duration_sec": 0.5312,
+      "peak_db": -1.0,
+      "rms_db": -20.225,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_revolver_reload_out_01",
+      "base": "wpn_revolver_reload_out",
+      "path": "Assets/Audio/Weapons/wpn_revolver_reload_out_01.wav",
+      "duration_sec": 0.5098,
+      "peak_db": -1.0,
+      "rms_db": -21.595,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_revolver_reload_out_02",
+      "base": "wpn_revolver_reload_out",
+      "path": "Assets/Audio/Weapons/wpn_revolver_reload_out_02.wav",
+      "duration_sec": 0.5183,
+      "peak_db": -1.0,
+      "rms_db": -22.251,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_rifle_draw_01",
+      "base": "wpn_rifle_draw",
+      "path": "Assets/Audio/Weapons/wpn_rifle_draw_01.wav",
+      "duration_sec": 0.4349,
+      "peak_db": -1.0,
+      "rms_db": -19.541,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_rifle_draw_02",
+      "base": "wpn_rifle_draw",
+      "path": "Assets/Audio/Weapons/wpn_rifle_draw_02.wav",
+      "duration_sec": 0.3924,
+      "peak_db": -1.0,
+      "rms_db": -19.753,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_rifle_echo_01",
+      "base": "wpn_rifle_echo",
+      "path": "Assets/Audio/Weapons/wpn_rifle_echo_01.wav",
+      "duration_sec": 1.4329,
+      "peak_db": -1.0,
+      "rms_db": -17.758,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_rifle_echo_02",
+      "base": "wpn_rifle_echo",
+      "path": "Assets/Audio/Weapons/wpn_rifle_echo_02.wav",
+      "duration_sec": 1.4264,
+      "peak_db": -1.0,
+      "rms_db": -20.042,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_rifle_empty_01",
+      "base": "wpn_rifle_empty",
+      "path": "Assets/Audio/Weapons/wpn_rifle_empty_01.wav",
+      "duration_sec": 0.1674,
+      "peak_db": -1.0,
+      "rms_db": -21.011,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_rifle_empty_02",
+      "base": "wpn_rifle_empty",
+      "path": "Assets/Audio/Weapons/wpn_rifle_empty_02.wav",
+      "duration_sec": 0.1564,
+      "peak_db": -1.0,
+      "rms_db": -20.694,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_rifle_fire_01",
+      "base": "wpn_rifle_fire",
+      "path": "Assets/Audio/Weapons/wpn_rifle_fire_01.wav",
+      "duration_sec": 0.591,
+      "peak_db": -1.0,
+      "rms_db": -12.522,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_rifle_fire_02",
+      "base": "wpn_rifle_fire",
+      "path": "Assets/Audio/Weapons/wpn_rifle_fire_02.wav",
+      "duration_sec": 0.5759,
+      "peak_db": -1.0,
+      "rms_db": -12.536,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_rifle_reload_in_01",
+      "base": "wpn_rifle_reload_in",
+      "path": "Assets/Audio/Weapons/wpn_rifle_reload_in_01.wav",
+      "duration_sec": 0.5883,
+      "peak_db": -1.0,
+      "rms_db": -20.735,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_rifle_reload_in_02",
+      "base": "wpn_rifle_reload_in",
+      "path": "Assets/Audio/Weapons/wpn_rifle_reload_in_02.wav",
+      "duration_sec": 0.5314,
+      "peak_db": -1.0,
+      "rms_db": -20.244,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_rifle_reload_out_01",
+      "base": "wpn_rifle_reload_out",
+      "path": "Assets/Audio/Weapons/wpn_rifle_reload_out_01.wav",
+      "duration_sec": 0.4688,
+      "peak_db": -1.0,
+      "rms_db": -21.943,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_rifle_reload_out_02",
+      "base": "wpn_rifle_reload_out",
+      "path": "Assets/Audio/Weapons/wpn_rifle_reload_out_02.wav",
+      "duration_sec": 0.4528,
+      "peak_db": -1.0,
+      "rms_db": -21.776,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_shotgun_draw_01",
+      "base": "wpn_shotgun_draw",
+      "path": "Assets/Audio/Weapons/wpn_shotgun_draw_01.wav",
+      "duration_sec": 0.407,
+      "peak_db": -1.0,
+      "rms_db": -19.27,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_shotgun_draw_02",
+      "base": "wpn_shotgun_draw",
+      "path": "Assets/Audio/Weapons/wpn_shotgun_draw_02.wav",
+      "duration_sec": 0.3998,
+      "peak_db": -1.0,
+      "rms_db": -18.814,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_shotgun_echo_01",
+      "base": "wpn_shotgun_echo",
+      "path": "Assets/Audio/Weapons/wpn_shotgun_echo_01.wav",
+      "duration_sec": 1.624,
+      "peak_db": -1.0,
+      "rms_db": -18.26,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_shotgun_echo_02",
+      "base": "wpn_shotgun_echo",
+      "path": "Assets/Audio/Weapons/wpn_shotgun_echo_02.wav",
+      "duration_sec": 1.6231,
+      "peak_db": -1.0,
+      "rms_db": -18.495,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_shotgun_empty_01",
+      "base": "wpn_shotgun_empty",
+      "path": "Assets/Audio/Weapons/wpn_shotgun_empty_01.wav",
+      "duration_sec": 0.1745,
+      "peak_db": -1.0,
+      "rms_db": -20.823,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_shotgun_empty_02",
+      "base": "wpn_shotgun_empty",
+      "path": "Assets/Audio/Weapons/wpn_shotgun_empty_02.wav",
+      "duration_sec": 0.1594,
+      "peak_db": -1.0,
+      "rms_db": -21.386,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_shotgun_fire_01",
+      "base": "wpn_shotgun_fire",
+      "path": "Assets/Audio/Weapons/wpn_shotgun_fire_01.wav",
+      "duration_sec": 0.77,
+      "peak_db": -1.0,
+      "rms_db": -10.642,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_shotgun_fire_02",
+      "base": "wpn_shotgun_fire",
+      "path": "Assets/Audio/Weapons/wpn_shotgun_fire_02.wav",
+      "duration_sec": 0.7886,
+      "peak_db": -1.0,
+      "rms_db": -10.517,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_shotgun_reload_in_01",
+      "base": "wpn_shotgun_reload_in",
+      "path": "Assets/Audio/Weapons/wpn_shotgun_reload_in_01.wav",
+      "duration_sec": 0.5604,
+      "peak_db": -1.0,
+      "rms_db": -20.206,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_shotgun_reload_in_02",
+      "base": "wpn_shotgun_reload_in",
+      "path": "Assets/Audio/Weapons/wpn_shotgun_reload_in_02.wav",
+      "duration_sec": 0.5936,
+      "peak_db": -1.0,
+      "rms_db": -20.771,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_shotgun_reload_out_01",
+      "base": "wpn_shotgun_reload_out",
+      "path": "Assets/Audio/Weapons/wpn_shotgun_reload_out_01.wav",
+      "duration_sec": 0.4796,
+      "peak_db": -1.0,
+      "rms_db": -21.737,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_shotgun_reload_out_02",
+      "base": "wpn_shotgun_reload_out",
+      "path": "Assets/Audio/Weapons/wpn_shotgun_reload_out_02.wav",
+      "duration_sec": 0.4697,
+      "peak_db": -1.0,
+      "rms_db": -21.713,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_smg_draw_01",
+      "base": "wpn_smg_draw",
+      "path": "Assets/Audio/Weapons/wpn_smg_draw_01.wav",
+      "duration_sec": 0.4165,
+      "peak_db": -1.0,
+      "rms_db": -20.244,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_smg_draw_02",
+      "base": "wpn_smg_draw",
+      "path": "Assets/Audio/Weapons/wpn_smg_draw_02.wav",
+      "duration_sec": 0.4424,
+      "peak_db": -1.0,
+      "rms_db": -20.548,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_smg_echo_01",
+      "base": "wpn_smg_echo",
+      "path": "Assets/Audio/Weapons/wpn_smg_echo_01.wav",
+      "duration_sec": 0.9133,
+      "peak_db": -1.0,
+      "rms_db": -16.607,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_smg_echo_02",
+      "base": "wpn_smg_echo",
+      "path": "Assets/Audio/Weapons/wpn_smg_echo_02.wav",
+      "duration_sec": 0.9564,
+      "peak_db": -1.0,
+      "rms_db": -16.338,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_smg_empty_01",
+      "base": "wpn_smg_empty",
+      "path": "Assets/Audio/Weapons/wpn_smg_empty_01.wav",
+      "duration_sec": 0.1629,
+      "peak_db": -1.0,
+      "rms_db": -20.634,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_smg_empty_02",
+      "base": "wpn_smg_empty",
+      "path": "Assets/Audio/Weapons/wpn_smg_empty_02.wav",
+      "duration_sec": 0.152,
+      "peak_db": -1.0,
+      "rms_db": -20.703,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_smg_fire_01",
+      "base": "wpn_smg_fire",
+      "path": "Assets/Audio/Weapons/wpn_smg_fire_01.wav",
+      "duration_sec": 0.35,
+      "peak_db": -1.0,
+      "rms_db": -14.826,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_smg_fire_02",
+      "base": "wpn_smg_fire",
+      "path": "Assets/Audio/Weapons/wpn_smg_fire_02.wav",
+      "duration_sec": 0.3198,
+      "peak_db": -1.0,
+      "rms_db": -14.552,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_smg_reload_in_01",
+      "base": "wpn_smg_reload_in",
+      "path": "Assets/Audio/Weapons/wpn_smg_reload_in_01.wav",
+      "duration_sec": 0.5717,
+      "peak_db": -1.0,
+      "rms_db": -20.534,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_smg_reload_in_02",
+      "base": "wpn_smg_reload_in",
+      "path": "Assets/Audio/Weapons/wpn_smg_reload_in_02.wav",
+      "duration_sec": 0.5837,
+      "peak_db": -1.0,
+      "rms_db": -20.988,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_smg_reload_out_01",
+      "base": "wpn_smg_reload_out",
+      "path": "Assets/Audio/Weapons/wpn_smg_reload_out_01.wav",
+      "duration_sec": 0.4625,
+      "peak_db": -1.0,
+      "rms_db": -21.685,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_smg_reload_out_02",
+      "base": "wpn_smg_reload_out",
+      "path": "Assets/Audio/Weapons/wpn_smg_reload_out_02.wav",
+      "duration_sec": 0.482,
+      "peak_db": -1.0,
+      "rms_db": -22.145,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_sniper_draw_01",
+      "base": "wpn_sniper_draw",
+      "path": "Assets/Audio/Weapons/wpn_sniper_draw_01.wav",
+      "duration_sec": 0.4231,
+      "peak_db": -1.0,
+      "rms_db": -19.175,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_sniper_draw_02",
+      "base": "wpn_sniper_draw",
+      "path": "Assets/Audio/Weapons/wpn_sniper_draw_02.wav",
+      "duration_sec": 0.4549,
+      "peak_db": -1.0,
+      "rms_db": -20.057,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_sniper_echo_01",
+      "base": "wpn_sniper_echo",
+      "path": "Assets/Audio/Weapons/wpn_sniper_echo_01.wav",
+      "duration_sec": 1.8766,
+      "peak_db": -1.0,
+      "rms_db": -17.763,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_sniper_echo_02",
+      "base": "wpn_sniper_echo",
+      "path": "Assets/Audio/Weapons/wpn_sniper_echo_02.wav",
+      "duration_sec": 1.7909,
+      "peak_db": -1.0,
+      "rms_db": -17.381,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_sniper_empty_01",
+      "base": "wpn_sniper_empty",
+      "path": "Assets/Audio/Weapons/wpn_sniper_empty_01.wav",
+      "duration_sec": 0.1681,
+      "peak_db": -1.0,
+      "rms_db": -20.583,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_sniper_empty_02",
+      "base": "wpn_sniper_empty",
+      "path": "Assets/Audio/Weapons/wpn_sniper_empty_02.wav",
+      "duration_sec": 0.1549,
+      "peak_db": -1.0,
+      "rms_db": -19.991,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_sniper_fire_01",
+      "base": "wpn_sniper_fire",
+      "path": "Assets/Audio/Weapons/wpn_sniper_fire_01.wav",
+      "duration_sec": 0.9397,
+      "peak_db": -1.0,
+      "rms_db": -10.562,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_sniper_fire_02",
+      "base": "wpn_sniper_fire",
+      "path": "Assets/Audio/Weapons/wpn_sniper_fire_02.wav",
+      "duration_sec": 0.9468,
+      "peak_db": -1.0,
+      "rms_db": -11.082,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_sniper_reload_in_01",
+      "base": "wpn_sniper_reload_in",
+      "path": "Assets/Audio/Weapons/wpn_sniper_reload_in_01.wav",
+      "duration_sec": 0.5976,
+      "peak_db": -1.0,
+      "rms_db": -20.709,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_sniper_reload_in_02",
+      "base": "wpn_sniper_reload_in",
+      "path": "Assets/Audio/Weapons/wpn_sniper_reload_in_02.wav",
+      "duration_sec": 0.5773,
+      "peak_db": -1.0,
+      "rms_db": -20.678,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_sniper_reload_out_01",
+      "base": "wpn_sniper_reload_out",
+      "path": "Assets/Audio/Weapons/wpn_sniper_reload_out_01.wav",
+      "duration_sec": 0.502,
+      "peak_db": -1.0,
+      "rms_db": -22.07,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Weapons",
+      "stem": "wpn_sniper_reload_out_02",
+      "base": "wpn_sniper_reload_out",
+      "path": "Assets/Audio/Weapons/wpn_sniper_reload_out_02.wav",
+      "duration_sec": 0.4659,
+      "peak_db": -1.0,
+      "rms_db": -21.658,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "alarm_01",
+      "base": "alarm",
+      "path": "Assets/Audio/World/alarm_01.wav",
+      "duration_sec": 1.6,
+      "peak_db": -1.0,
+      "rms_db": -9.019,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "alarm_02",
+      "base": "alarm",
+      "path": "Assets/Audio/World/alarm_02.wav",
+      "duration_sec": 1.6,
+      "peak_db": -1.0,
+      "rms_db": -9.118,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "alarm_03",
+      "base": "alarm",
+      "path": "Assets/Audio/World/alarm_03.wav",
+      "duration_sec": 1.6,
+      "peak_db": -1.0,
+      "rms_db": -9.412,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "amb_base_01",
+      "base": "amb_base",
+      "path": "Assets/Audio/World/amb_base_01.wav",
+      "duration_sec": 6.0,
+      "peak_db": -1.0,
+      "rms_db": -9.834,
+      "is_loop": true,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "amb_base_02",
+      "base": "amb_base",
+      "path": "Assets/Audio/World/amb_base_02.wav",
+      "duration_sec": 6.0,
+      "peak_db": -1.0,
+      "rms_db": -11.642,
+      "is_loop": true,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "amb_basement_01",
+      "base": "amb_basement",
+      "path": "Assets/Audio/World/amb_basement_01.wav",
+      "duration_sec": 6.0,
+      "peak_db": -1.0,
+      "rms_db": -10.257,
+      "is_loop": true,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "amb_basement_02",
+      "base": "amb_basement",
+      "path": "Assets/Audio/World/amb_basement_02.wav",
+      "duration_sec": 6.0,
+      "peak_db": -1.0,
+      "rms_db": -10.328,
+      "is_loop": true,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "amb_executive_01",
+      "base": "amb_executive",
+      "path": "Assets/Audio/World/amb_executive_01.wav",
+      "duration_sec": 6.0,
+      "peak_db": -1.0,
+      "rms_db": -12.083,
+      "is_loop": true,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "amb_executive_02",
+      "base": "amb_executive",
+      "path": "Assets/Audio/World/amb_executive_02.wav",
+      "duration_sec": 6.0,
+      "peak_db": -1.0,
+      "rms_db": -11.313,
+      "is_loop": true,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "amb_gym_01",
+      "base": "amb_gym",
+      "path": "Assets/Audio/World/amb_gym_01.wav",
+      "duration_sec": 6.0,
+      "peak_db": -1.0,
+      "rms_db": -10.663,
+      "is_loop": true,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "amb_gym_02",
+      "base": "amb_gym",
+      "path": "Assets/Audio/World/amb_gym_02.wav",
+      "duration_sec": 6.0,
+      "peak_db": -1.0,
+      "rms_db": -12.671,
+      "is_loop": true,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "amb_lab_01",
+      "base": "amb_lab",
+      "path": "Assets/Audio/World/amb_lab_01.wav",
+      "duration_sec": 6.0,
+      "peak_db": -1.0,
+      "rms_db": -10.895,
+      "is_loop": true,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "amb_lab_02",
+      "base": "amb_lab",
+      "path": "Assets/Audio/World/amb_lab_02.wav",
+      "duration_sec": 6.0,
+      "peak_db": -1.0,
+      "rms_db": -11.028,
+      "is_loop": true,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "amb_lobby_01",
+      "base": "amb_lobby",
+      "path": "Assets/Audio/World/amb_lobby_01.wav",
+      "duration_sec": 6.0,
+      "peak_db": -1.0,
+      "rms_db": -11.557,
+      "is_loop": true,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "amb_lobby_02",
+      "base": "amb_lobby",
+      "path": "Assets/Audio/World/amb_lobby_02.wav",
+      "duration_sec": 6.0,
+      "peak_db": -1.0,
+      "rms_db": -10.718,
+      "is_loop": true,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "amb_mall_01",
+      "base": "amb_mall",
+      "path": "Assets/Audio/World/amb_mall_01.wav",
+      "duration_sec": 6.0,
+      "peak_db": -1.0,
+      "rms_db": -10.457,
+      "is_loop": true,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "amb_mall_02",
+      "base": "amb_mall",
+      "path": "Assets/Audio/World/amb_mall_02.wav",
+      "duration_sec": 6.0,
+      "peak_db": -1.0,
+      "rms_db": -10.522,
+      "is_loop": true,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "amb_medical_01",
+      "base": "amb_medical",
+      "path": "Assets/Audio/World/amb_medical_01.wav",
+      "duration_sec": 6.0,
+      "peak_db": -1.0,
+      "rms_db": -11.754,
+      "is_loop": true,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "amb_medical_02",
+      "base": "amb_medical",
+      "path": "Assets/Audio/World/amb_medical_02.wav",
+      "duration_sec": 6.0,
+      "peak_db": -1.0,
+      "rms_db": -10.997,
+      "is_loop": true,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "amb_office_01",
+      "base": "amb_office",
+      "path": "Assets/Audio/World/amb_office_01.wav",
+      "duration_sec": 6.0,
+      "peak_db": -1.0,
+      "rms_db": -9.342,
+      "is_loop": true,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "amb_office_02",
+      "base": "amb_office",
+      "path": "Assets/Audio/World/amb_office_02.wav",
+      "duration_sec": 6.0,
+      "peak_db": -1.0,
+      "rms_db": -10.902,
+      "is_loop": true,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "amb_parking_01",
+      "base": "amb_parking",
+      "path": "Assets/Audio/World/amb_parking_01.wav",
+      "duration_sec": 6.0,
+      "peak_db": -1.0,
+      "rms_db": -10.621,
+      "is_loop": true,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "amb_parking_02",
+      "base": "amb_parking",
+      "path": "Assets/Audio/World/amb_parking_02.wav",
+      "duration_sec": 6.0,
+      "peak_db": -1.0,
+      "rms_db": -10.445,
+      "is_loop": true,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "amb_residential_01",
+      "base": "amb_residential",
+      "path": "Assets/Audio/World/amb_residential_01.wav",
+      "duration_sec": 6.0,
+      "peak_db": -1.0,
+      "rms_db": -11.38,
+      "is_loop": true,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "amb_residential_02",
+      "base": "amb_residential",
+      "path": "Assets/Audio/World/amb_residential_02.wav",
+      "duration_sec": 6.0,
+      "peak_db": -1.0,
+      "rms_db": -10.544,
+      "is_loop": true,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "amb_roof_01",
+      "base": "amb_roof",
+      "path": "Assets/Audio/World/amb_roof_01.wav",
+      "duration_sec": 6.0,
+      "peak_db": -1.0,
+      "rms_db": -11.457,
+      "is_loop": true,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "amb_roof_02",
+      "base": "amb_roof",
+      "path": "Assets/Audio/World/amb_roof_02.wav",
+      "duration_sec": 6.0,
+      "peak_db": -1.0,
+      "rms_db": -10.854,
+      "is_loop": true,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "heartbeat_01",
+      "base": "heartbeat",
+      "path": "Assets/Audio/World/heartbeat_01.wav",
+      "duration_sec": 0.82,
+      "peak_db": -1.0,
+      "rms_db": -16.57,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "heartbeat_02",
+      "base": "heartbeat",
+      "path": "Assets/Audio/World/heartbeat_02.wav",
+      "duration_sec": 0.66,
+      "peak_db": -1.0,
+      "rms_db": -15.618,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "mus_boss_01",
+      "base": "mus_boss",
+      "path": "Assets/Audio/World/mus_boss_01.wav",
+      "duration_sec": 8.0,
+      "peak_db": -1.0,
+      "rms_db": -10.035,
+      "is_loop": true,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "mus_boss_02",
+      "base": "mus_boss",
+      "path": "Assets/Audio/World/mus_boss_02.wav",
+      "duration_sec": 8.0,
+      "peak_db": -1.0,
+      "rms_db": -10.186,
+      "is_loop": true,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "mus_combat_01",
+      "base": "mus_combat",
+      "path": "Assets/Audio/World/mus_combat_01.wav",
+      "duration_sec": 8.0,
+      "peak_db": -1.0,
+      "rms_db": -11.961,
+      "is_loop": true,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "mus_combat_02",
+      "base": "mus_combat",
+      "path": "Assets/Audio/World/mus_combat_02.wav",
+      "duration_sec": 8.0,
+      "peak_db": -1.0,
+      "rms_db": -12.608,
+      "is_loop": true,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "mus_ending_escape_01",
+      "base": "mus_ending_escape",
+      "path": "Assets/Audio/World/mus_ending_escape_01.wav",
+      "duration_sec": 8.0,
+      "peak_db": -1.0,
+      "rms_db": -14.605,
+      "is_loop": true,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "mus_ending_helicopter_01",
+      "base": "mus_ending_helicopter",
+      "path": "Assets/Audio/World/mus_ending_helicopter_01.wav",
+      "duration_sec": 8.0,
+      "peak_db": -1.0,
+      "rms_db": -14.615,
+      "is_loop": true,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "mus_explore_01",
+      "base": "mus_explore",
+      "path": "Assets/Audio/World/mus_explore_01.wav",
+      "duration_sec": 8.0,
+      "peak_db": -1.0,
+      "rms_db": -12.634,
+      "is_loop": true,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "mus_explore_02",
+      "base": "mus_explore",
+      "path": "Assets/Audio/World/mus_explore_02.wav",
+      "duration_sec": 8.0,
+      "peak_db": -1.0,
+      "rms_db": -12.64,
+      "is_loop": true,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "mus_safehouse_01",
+      "base": "mus_safehouse",
+      "path": "Assets/Audio/World/mus_safehouse_01.wav",
+      "duration_sec": 8.0,
+      "peak_db": -1.0,
+      "rms_db": -14.384,
+      "is_loop": true,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "mus_safehouse_02",
+      "base": "mus_safehouse",
+      "path": "Assets/Audio/World/mus_safehouse_02.wav",
+      "duration_sec": 8.0,
+      "peak_db": -1.0,
+      "rms_db": -14.384,
+      "is_loop": true,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "mus_stinger_01",
+      "base": "mus_stinger",
+      "path": "Assets/Audio/World/mus_stinger_01.wav",
+      "duration_sec": 1.85,
+      "peak_db": -1.0,
+      "rms_db": -11.55,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "mus_stinger_02",
+      "base": "mus_stinger",
+      "path": "Assets/Audio/World/mus_stinger_02.wav",
+      "duration_sec": 1.85,
+      "peak_db": -1.0,
+      "rms_db": -11.356,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "mus_stinger_03",
+      "base": "mus_stinger",
+      "path": "Assets/Audio/World/mus_stinger_03.wav",
+      "duration_sec": 1.85,
+      "peak_db": -1.0,
+      "rms_db": -11.231,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "mus_tension_01",
+      "base": "mus_tension",
+      "path": "Assets/Audio/World/mus_tension_01.wav",
+      "duration_sec": 8.0,
+      "peak_db": -1.0,
+      "rms_db": -13.087,
+      "is_loop": true,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "mus_tension_02",
+      "base": "mus_tension",
+      "path": "Assets/Audio/World/mus_tension_02.wav",
+      "duration_sec": 8.0,
+      "peak_db": -1.0,
+      "rms_db": -13.079,
+      "is_loop": true,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "rain_01",
+      "base": "rain",
+      "path": "Assets/Audio/World/rain_01.wav",
+      "duration_sec": 2.6,
+      "peak_db": -1.0,
+      "rms_db": -14.054,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "rain_02",
+      "base": "rain",
+      "path": "Assets/Audio/World/rain_02.wav",
+      "duration_sec": 2.6,
+      "peak_db": -1.0,
+      "rms_db": -14.595,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "rain_03",
+      "base": "rain",
+      "path": "Assets/Audio/World/rain_03.wav",
+      "duration_sec": 2.6,
+      "peak_db": -1.0,
+      "rms_db": -14.387,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "thunder_01",
+      "base": "thunder",
+      "path": "Assets/Audio/World/thunder_01.wav",
+      "duration_sec": 2.7,
+      "peak_db": -1.0,
+      "rms_db": -11.943,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "thunder_02",
+      "base": "thunder",
+      "path": "Assets/Audio/World/thunder_02.wav",
+      "duration_sec": 2.9,
+      "peak_db": -1.0,
+      "rms_db": -11.098,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "thunder_03",
+      "base": "thunder",
+      "path": "Assets/Audio/World/thunder_03.wav",
+      "duration_sec": 3.1,
+      "peak_db": -1.0,
+      "rms_db": -11.734,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "tinnitus_01",
+      "base": "tinnitus",
+      "path": "Assets/Audio/World/tinnitus_01.wav",
+      "duration_sec": 2.4,
+      "peak_db": -1.0,
+      "rms_db": -7.788,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "ui_back_01",
+      "base": "ui_back",
+      "path": "Assets/Audio/World/ui_back_01.wav",
+      "duration_sec": 0.11,
+      "peak_db": -1.0,
+      "rms_db": -14.576,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "ui_back_02",
+      "base": "ui_back",
+      "path": "Assets/Audio/World/ui_back_02.wav",
+      "duration_sec": 0.11,
+      "peak_db": -1.0,
+      "rms_db": -14.428,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "ui_click_01",
+      "base": "ui_click",
+      "path": "Assets/Audio/World/ui_click_01.wav",
+      "duration_sec": 0.065,
+      "peak_db": -1.0,
+      "rms_db": -13.837,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "ui_click_02",
+      "base": "ui_click",
+      "path": "Assets/Audio/World/ui_click_02.wav",
+      "duration_sec": 0.065,
+      "peak_db": -1.0,
+      "rms_db": -13.724,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "ui_close_01",
+      "base": "ui_close",
+      "path": "Assets/Audio/World/ui_close_01.wav",
+      "duration_sec": 0.16,
+      "peak_db": -1.0,
+      "rms_db": -12.931,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "ui_close_02",
+      "base": "ui_close",
+      "path": "Assets/Audio/World/ui_close_02.wav",
+      "duration_sec": 0.16,
+      "peak_db": -1.0,
+      "rms_db": -12.979,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "ui_confirm_01",
+      "base": "ui_confirm",
+      "path": "Assets/Audio/World/ui_confirm_01.wav",
+      "duration_sec": 0.24,
+      "peak_db": -1.0,
+      "rms_db": -12.602,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "ui_confirm_02",
+      "base": "ui_confirm",
+      "path": "Assets/Audio/World/ui_confirm_02.wav",
+      "duration_sec": 0.24,
+      "peak_db": -1.0,
+      "rms_db": -12.779,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "ui_craft_01",
+      "base": "ui_craft",
+      "path": "Assets/Audio/World/ui_craft_01.wav",
+      "duration_sec": 0.34,
+      "peak_db": -1.0,
+      "rms_db": -12.944,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "ui_denied_01",
+      "base": "ui_denied",
+      "path": "Assets/Audio/World/ui_denied_01.wav",
+      "duration_sec": 0.26,
+      "peak_db": -1.0,
+      "rms_db": -9.722,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "ui_denied_02",
+      "base": "ui_denied",
+      "path": "Assets/Audio/World/ui_denied_02.wav",
+      "duration_sec": 0.26,
+      "peak_db": -1.0,
+      "rms_db": -9.759,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "ui_equip_01",
+      "base": "ui_equip",
+      "path": "Assets/Audio/World/ui_equip_01.wav",
+      "duration_sec": 0.22,
+      "peak_db": -1.0,
+      "rms_db": -15.799,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "ui_equip_02",
+      "base": "ui_equip",
+      "path": "Assets/Audio/World/ui_equip_02.wav",
+      "duration_sec": 0.22,
+      "peak_db": -1.0,
+      "rms_db": -15.891,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "ui_error_01",
+      "base": "ui_error",
+      "path": "Assets/Audio/World/ui_error_01.wav",
+      "duration_sec": 0.26,
+      "peak_db": -1.0,
+      "rms_db": -9.836,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "ui_error_02",
+      "base": "ui_error",
+      "path": "Assets/Audio/World/ui_error_02.wav",
+      "duration_sec": 0.26,
+      "peak_db": -1.0,
+      "rms_db": -9.862,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "ui_journal_01",
+      "base": "ui_journal",
+      "path": "Assets/Audio/World/ui_journal_01.wav",
+      "duration_sec": 0.32,
+      "peak_db": -1.0,
+      "rms_db": -16.41,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "ui_open_01",
+      "base": "ui_open",
+      "path": "Assets/Audio/World/ui_open_01.wav",
+      "duration_sec": 0.18,
+      "peak_db": -1.0,
+      "rms_db": -8.837,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "ui_open_02",
+      "base": "ui_open",
+      "path": "Assets/Audio/World/ui_open_02.wav",
+      "duration_sec": 0.18,
+      "peak_db": -1.0,
+      "rms_db": -8.741,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "ui_quest_01",
+      "base": "ui_quest",
+      "path": "Assets/Audio/World/ui_quest_01.wav",
+      "duration_sec": 0.62,
+      "peak_db": -1.0,
+      "rms_db": -11.13,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "ui_save_01",
+      "base": "ui_save",
+      "path": "Assets/Audio/World/ui_save_01.wav",
+      "duration_sec": 0.42,
+      "peak_db": -1.0,
+      "rms_db": -12.996,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "ui_tab_01",
+      "base": "ui_tab",
+      "path": "Assets/Audio/World/ui_tab_01.wav",
+      "duration_sec": 0.085,
+      "peak_db": -1.0,
+      "rms_db": -13.153,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "ui_tab_02",
+      "base": "ui_tab",
+      "path": "Assets/Audio/World/ui_tab_02.wav",
+      "duration_sec": 0.085,
+      "peak_db": -1.0,
+      "rms_db": -13.238,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "ui_toast_01",
+      "base": "ui_toast",
+      "path": "Assets/Audio/World/ui_toast_01.wav",
+      "duration_sec": 0.22,
+      "peak_db": -1.0,
+      "rms_db": -11.097,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "ui_upgrade_01",
+      "base": "ui_upgrade",
+      "path": "Assets/Audio/World/ui_upgrade_01.wav",
+      "duration_sec": 0.58,
+      "peak_db": -1.0,
+      "rms_db": -13.697,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "wind_01",
+      "base": "wind",
+      "path": "Assets/Audio/World/wind_01.wav",
+      "duration_sec": 2.8,
+      "peak_db": -1.0,
+      "rms_db": -14.414,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "wind_02",
+      "base": "wind",
+      "path": "Assets/Audio/World/wind_02.wav",
+      "duration_sec": 2.8,
+      "peak_db": -1.0,
+      "rms_db": -16.443,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "World",
+      "stem": "wind_03",
+      "base": "wind",
+      "path": "Assets/Audio/World/wind_03.wav",
+      "duration_sec": 2.8,
+      "peak_db": -1.0,
+      "rms_db": -14.975,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_armored_attack_01",
+      "base": "zmb_armored_attack",
+      "path": "Assets/Audio/Zombies/zmb_armored_attack_01.wav",
+      "duration_sec": 0.7239,
+      "peak_db": -1.0,
+      "rms_db": -15.376,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_armored_attack_02",
+      "base": "zmb_armored_attack",
+      "path": "Assets/Audio/Zombies/zmb_armored_attack_02.wav",
+      "duration_sec": 0.7335,
+      "peak_db": -1.0,
+      "rms_db": -15.338,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_armored_attack_03",
+      "base": "zmb_armored_attack",
+      "path": "Assets/Audio/Zombies/zmb_armored_attack_03.wav",
+      "duration_sec": 0.75,
+      "peak_db": -1.0,
+      "rms_db": -14.691,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_armored_bone_01",
+      "base": "zmb_armored_bone",
+      "path": "Assets/Audio/Zombies/zmb_armored_bone_01.wav",
+      "duration_sec": 0.5661,
+      "peak_db": -1.0,
+      "rms_db": -15.03,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_armored_bone_02",
+      "base": "zmb_armored_bone",
+      "path": "Assets/Audio/Zombies/zmb_armored_bone_02.wav",
+      "duration_sec": 0.4995,
+      "peak_db": -1.0,
+      "rms_db": -14.285,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_armored_bone_03",
+      "base": "zmb_armored_bone",
+      "path": "Assets/Audio/Zombies/zmb_armored_bone_03.wav",
+      "duration_sec": 0.5047,
+      "peak_db": -1.0,
+      "rms_db": -14.653,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_armored_breath_01",
+      "base": "zmb_armored_breath",
+      "path": "Assets/Audio/Zombies/zmb_armored_breath_01.wav",
+      "duration_sec": 1.1788,
+      "peak_db": -1.0,
+      "rms_db": -12.614,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_armored_breath_02",
+      "base": "zmb_armored_breath",
+      "path": "Assets/Audio/Zombies/zmb_armored_breath_02.wav",
+      "duration_sec": 1.1627,
+      "peak_db": -1.0,
+      "rms_db": -13.037,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_armored_breath_03",
+      "base": "zmb_armored_breath",
+      "path": "Assets/Audio/Zombies/zmb_armored_breath_03.wav",
+      "duration_sec": 1.2102,
+      "peak_db": -1.0,
+      "rms_db": -13.252,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_armored_death_01",
+      "base": "zmb_armored_death",
+      "path": "Assets/Audio/Zombies/zmb_armored_death_01.wav",
+      "duration_sec": 1.3764,
+      "peak_db": -1.0,
+      "rms_db": -14.783,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_armored_death_02",
+      "base": "zmb_armored_death",
+      "path": "Assets/Audio/Zombies/zmb_armored_death_02.wav",
+      "duration_sec": 1.2926,
+      "peak_db": -1.0,
+      "rms_db": -15.304,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_armored_death_03",
+      "base": "zmb_armored_death",
+      "path": "Assets/Audio/Zombies/zmb_armored_death_03.wav",
+      "duration_sec": 1.4484,
+      "peak_db": -1.0,
+      "rms_db": -15.669,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_armored_scratch_01",
+      "base": "zmb_armored_scratch",
+      "path": "Assets/Audio/Zombies/zmb_armored_scratch_01.wav",
+      "duration_sec": 0.5331,
+      "peak_db": -1.0,
+      "rms_db": -16.233,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_armored_scratch_02",
+      "base": "zmb_armored_scratch",
+      "path": "Assets/Audio/Zombies/zmb_armored_scratch_02.wav",
+      "duration_sec": 0.5465,
+      "peak_db": -1.0,
+      "rms_db": -17.282,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_armored_scratch_03",
+      "base": "zmb_armored_scratch",
+      "path": "Assets/Audio/Zombies/zmb_armored_scratch_03.wav",
+      "duration_sec": 0.5732,
+      "peak_db": -1.0,
+      "rms_db": -15.944,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_armored_scream_far_01",
+      "base": "zmb_armored_scream_far",
+      "path": "Assets/Audio/Zombies/zmb_armored_scream_far_01.wav",
+      "duration_sec": 1.7527,
+      "peak_db": -1.0,
+      "rms_db": -13.213,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_armored_scream_far_02",
+      "base": "zmb_armored_scream_far",
+      "path": "Assets/Audio/Zombies/zmb_armored_scream_far_02.wav",
+      "duration_sec": 1.6737,
+      "peak_db": -1.0,
+      "rms_db": -12.543,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_armored_scream_far_03",
+      "base": "zmb_armored_scream_far",
+      "path": "Assets/Audio/Zombies/zmb_armored_scream_far_03.wav",
+      "duration_sec": 1.6652,
+      "peak_db": -1.0,
+      "rms_db": -14.945,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_goliath_attack_01",
+      "base": "zmb_goliath_attack",
+      "path": "Assets/Audio/Zombies/zmb_goliath_attack_01.wav",
+      "duration_sec": 1.0031,
+      "peak_db": -1.0,
+      "rms_db": -9.551,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_goliath_attack_02",
+      "base": "zmb_goliath_attack",
+      "path": "Assets/Audio/Zombies/zmb_goliath_attack_02.wav",
+      "duration_sec": 1.0186,
+      "peak_db": -1.0,
+      "rms_db": -10.212,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_goliath_bone_01",
+      "base": "zmb_goliath_bone",
+      "path": "Assets/Audio/Zombies/zmb_goliath_bone_01.wav",
+      "duration_sec": 0.5077,
+      "peak_db": -1.0,
+      "rms_db": -14.773,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_goliath_bone_02",
+      "base": "zmb_goliath_bone",
+      "path": "Assets/Audio/Zombies/zmb_goliath_bone_02.wav",
+      "duration_sec": 0.5007,
+      "peak_db": -1.0,
+      "rms_db": -14.803,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_goliath_breath_01",
+      "base": "zmb_goliath_breath",
+      "path": "Assets/Audio/Zombies/zmb_goliath_breath_01.wav",
+      "duration_sec": 1.4528,
+      "peak_db": -1.0,
+      "rms_db": -8.325,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_goliath_breath_02",
+      "base": "zmb_goliath_breath",
+      "path": "Assets/Audio/Zombies/zmb_goliath_breath_02.wav",
+      "duration_sec": 1.3899,
+      "peak_db": -1.0,
+      "rms_db": -7.571,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_goliath_death_01",
+      "base": "zmb_goliath_death",
+      "path": "Assets/Audio/Zombies/zmb_goliath_death_01.wav",
+      "duration_sec": 1.91,
+      "peak_db": -1.0,
+      "rms_db": -12.054,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_goliath_death_02",
+      "base": "zmb_goliath_death",
+      "path": "Assets/Audio/Zombies/zmb_goliath_death_02.wav",
+      "duration_sec": 1.9979,
+      "peak_db": -1.0,
+      "rms_db": -12.215,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_goliath_enrage_01",
+      "base": "zmb_goliath_enrage",
+      "path": "Assets/Audio/Zombies/zmb_goliath_enrage_01.wav",
+      "duration_sec": 2.1618,
+      "peak_db": -1.0,
+      "rms_db": -8.762,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_goliath_enrage_02",
+      "base": "zmb_goliath_enrage",
+      "path": "Assets/Audio/Zombies/zmb_goliath_enrage_02.wav",
+      "duration_sec": 2.1135,
+      "peak_db": -1.0,
+      "rms_db": -9.096,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_goliath_roar_far_01",
+      "base": "zmb_goliath_roar_far",
+      "path": "Assets/Audio/Zombies/zmb_goliath_roar_far_01.wav",
+      "duration_sec": 2.098,
+      "peak_db": -1.0,
+      "rms_db": -11.582,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_goliath_roar_far_02",
+      "base": "zmb_goliath_roar_far",
+      "path": "Assets/Audio/Zombies/zmb_goliath_roar_far_02.wav",
+      "duration_sec": 2.0845,
+      "peak_db": -1.0,
+      "rms_db": -11.956,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_goliath_scratch_01",
+      "base": "zmb_goliath_scratch",
+      "path": "Assets/Audio/Zombies/zmb_goliath_scratch_01.wav",
+      "duration_sec": 0.5423,
+      "peak_db": -1.0,
+      "rms_db": -9.367,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_goliath_scratch_02",
+      "base": "zmb_goliath_scratch",
+      "path": "Assets/Audio/Zombies/zmb_goliath_scratch_02.wav",
+      "duration_sec": 0.5496,
+      "peak_db": -1.0,
+      "rms_db": -9.396,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_goliath_step_01",
+      "base": "zmb_goliath_step",
+      "path": "Assets/Audio/Zombies/zmb_goliath_step_01.wav",
+      "duration_sec": 0.7216,
+      "peak_db": -1.0,
+      "rms_db": -11.24,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_goliath_step_02",
+      "base": "zmb_goliath_step",
+      "path": "Assets/Audio/Zombies/zmb_goliath_step_02.wav",
+      "duration_sec": 0.6837,
+      "peak_db": -1.0,
+      "rms_db": -10.641,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_runner_attack_01",
+      "base": "zmb_runner_attack",
+      "path": "Assets/Audio/Zombies/zmb_runner_attack_01.wav",
+      "duration_sec": 0.7544,
+      "peak_db": -1.0,
+      "rms_db": -14.936,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_runner_attack_02",
+      "base": "zmb_runner_attack",
+      "path": "Assets/Audio/Zombies/zmb_runner_attack_02.wav",
+      "duration_sec": 0.6954,
+      "peak_db": -1.0,
+      "rms_db": -14.195,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_runner_attack_03",
+      "base": "zmb_runner_attack",
+      "path": "Assets/Audio/Zombies/zmb_runner_attack_03.wav",
+      "duration_sec": 0.719,
+      "peak_db": -1.0,
+      "rms_db": -14.501,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_runner_bone_01",
+      "base": "zmb_runner_bone",
+      "path": "Assets/Audio/Zombies/zmb_runner_bone_01.wav",
+      "duration_sec": 0.4868,
+      "peak_db": -1.0,
+      "rms_db": -14.275,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_runner_bone_02",
+      "base": "zmb_runner_bone",
+      "path": "Assets/Audio/Zombies/zmb_runner_bone_02.wav",
+      "duration_sec": 0.5545,
+      "peak_db": -1.0,
+      "rms_db": -14.761,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_runner_bone_03",
+      "base": "zmb_runner_bone",
+      "path": "Assets/Audio/Zombies/zmb_runner_bone_03.wav",
+      "duration_sec": 0.526,
+      "peak_db": -1.0,
+      "rms_db": -14.663,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_runner_breath_01",
+      "base": "zmb_runner_breath",
+      "path": "Assets/Audio/Zombies/zmb_runner_breath_01.wav",
+      "duration_sec": 0.7955,
+      "peak_db": -1.0,
+      "rms_db": -13.305,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_runner_breath_02",
+      "base": "zmb_runner_breath",
+      "path": "Assets/Audio/Zombies/zmb_runner_breath_02.wav",
+      "duration_sec": 0.773,
+      "peak_db": -1.0,
+      "rms_db": -14.421,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_runner_breath_03",
+      "base": "zmb_runner_breath",
+      "path": "Assets/Audio/Zombies/zmb_runner_breath_03.wav",
+      "duration_sec": 0.8006,
+      "peak_db": -1.0,
+      "rms_db": -13.214,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_runner_death_01",
+      "base": "zmb_runner_death",
+      "path": "Assets/Audio/Zombies/zmb_runner_death_01.wav",
+      "duration_sec": 1.4048,
+      "peak_db": -1.0,
+      "rms_db": -17.458,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_runner_death_02",
+      "base": "zmb_runner_death",
+      "path": "Assets/Audio/Zombies/zmb_runner_death_02.wav",
+      "duration_sec": 1.3754,
+      "peak_db": -1.0,
+      "rms_db": -15.457,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_runner_death_03",
+      "base": "zmb_runner_death",
+      "path": "Assets/Audio/Zombies/zmb_runner_death_03.wav",
+      "duration_sec": 1.2913,
+      "peak_db": -1.0,
+      "rms_db": -15.172,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_runner_scratch_01",
+      "base": "zmb_runner_scratch",
+      "path": "Assets/Audio/Zombies/zmb_runner_scratch_01.wav",
+      "duration_sec": 0.5494,
+      "peak_db": -1.0,
+      "rms_db": -16.219,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_runner_scratch_02",
+      "base": "zmb_runner_scratch",
+      "path": "Assets/Audio/Zombies/zmb_runner_scratch_02.wav",
+      "duration_sec": 0.5262,
+      "peak_db": -1.0,
+      "rms_db": -17.033,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_runner_scratch_03",
+      "base": "zmb_runner_scratch",
+      "path": "Assets/Audio/Zombies/zmb_runner_scratch_03.wav",
+      "duration_sec": 0.5782,
+      "peak_db": -1.0,
+      "rms_db": -16.372,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_runner_scream_far_01",
+      "base": "zmb_runner_scream_far",
+      "path": "Assets/Audio/Zombies/zmb_runner_scream_far_01.wav",
+      "duration_sec": 1.6483,
+      "peak_db": -1.0,
+      "rms_db": -13.49,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_runner_scream_far_02",
+      "base": "zmb_runner_scream_far",
+      "path": "Assets/Audio/Zombies/zmb_runner_scream_far_02.wav",
+      "duration_sec": 1.6223,
+      "peak_db": -1.0,
+      "rms_db": -12.845,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_runner_scream_far_03",
+      "base": "zmb_runner_scream_far",
+      "path": "Assets/Audio/Zombies/zmb_runner_scream_far_03.wav",
+      "duration_sec": 1.7409,
+      "peak_db": -1.0,
+      "rms_db": -12.714,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_spit_01",
+      "base": "zmb_spit",
+      "path": "Assets/Audio/Zombies/zmb_spit_01.wav",
+      "duration_sec": 0.62,
+      "peak_db": -1.0,
+      "rms_db": -17.998,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_spit_hit_01",
+      "base": "zmb_spit_hit",
+      "path": "Assets/Audio/Zombies/zmb_spit_hit_01.wav",
+      "duration_sec": 0.78,
+      "peak_db": -1.0,
+      "rms_db": -17.796,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_spitter_attack_01",
+      "base": "zmb_spitter_attack",
+      "path": "Assets/Audio/Zombies/zmb_spitter_attack_01.wav",
+      "duration_sec": 0.7677,
+      "peak_db": -1.0,
+      "rms_db": -18.797,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_spitter_attack_02",
+      "base": "zmb_spitter_attack",
+      "path": "Assets/Audio/Zombies/zmb_spitter_attack_02.wav",
+      "duration_sec": 0.7391,
+      "peak_db": -1.0,
+      "rms_db": -18.299,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_spitter_attack_03",
+      "base": "zmb_spitter_attack",
+      "path": "Assets/Audio/Zombies/zmb_spitter_attack_03.wav",
+      "duration_sec": 0.732,
+      "peak_db": -1.0,
+      "rms_db": -16.884,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_spitter_bone_01",
+      "base": "zmb_spitter_bone",
+      "path": "Assets/Audio/Zombies/zmb_spitter_bone_01.wav",
+      "duration_sec": 0.5045,
+      "peak_db": -1.0,
+      "rms_db": -14.844,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_spitter_bone_02",
+      "base": "zmb_spitter_bone",
+      "path": "Assets/Audio/Zombies/zmb_spitter_bone_02.wav",
+      "duration_sec": 0.5107,
+      "peak_db": -1.0,
+      "rms_db": -14.436,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_spitter_bone_03",
+      "base": "zmb_spitter_bone",
+      "path": "Assets/Audio/Zombies/zmb_spitter_bone_03.wav",
+      "duration_sec": 0.5084,
+      "peak_db": -1.0,
+      "rms_db": -14.781,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_spitter_breath_01",
+      "base": "zmb_spitter_breath",
+      "path": "Assets/Audio/Zombies/zmb_spitter_breath_01.wav",
+      "duration_sec": 1.186,
+      "peak_db": -1.0,
+      "rms_db": -16.907,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_spitter_breath_02",
+      "base": "zmb_spitter_breath",
+      "path": "Assets/Audio/Zombies/zmb_spitter_breath_02.wav",
+      "duration_sec": 1.1258,
+      "peak_db": -1.0,
+      "rms_db": -14.816,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_spitter_breath_03",
+      "base": "zmb_spitter_breath",
+      "path": "Assets/Audio/Zombies/zmb_spitter_breath_03.wav",
+      "duration_sec": 1.1115,
+      "peak_db": -1.0,
+      "rms_db": -16.099,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_spitter_death_01",
+      "base": "zmb_spitter_death",
+      "path": "Assets/Audio/Zombies/zmb_spitter_death_01.wav",
+      "duration_sec": 1.3526,
+      "peak_db": -1.0,
+      "rms_db": -19.042,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_spitter_death_02",
+      "base": "zmb_spitter_death",
+      "path": "Assets/Audio/Zombies/zmb_spitter_death_02.wav",
+      "duration_sec": 1.459,
+      "peak_db": -1.0,
+      "rms_db": -17.707,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_spitter_death_03",
+      "base": "zmb_spitter_death",
+      "path": "Assets/Audio/Zombies/zmb_spitter_death_03.wav",
+      "duration_sec": 1.4349,
+      "peak_db": -1.0,
+      "rms_db": -19.828,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_spitter_scratch_01",
+      "base": "zmb_spitter_scratch",
+      "path": "Assets/Audio/Zombies/zmb_spitter_scratch_01.wav",
+      "duration_sec": 0.592,
+      "peak_db": -1.0,
+      "rms_db": -15.118,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_spitter_scratch_02",
+      "base": "zmb_spitter_scratch",
+      "path": "Assets/Audio/Zombies/zmb_spitter_scratch_02.wav",
+      "duration_sec": 0.554,
+      "peak_db": -1.0,
+      "rms_db": -17.953,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_spitter_scratch_03",
+      "base": "zmb_spitter_scratch",
+      "path": "Assets/Audio/Zombies/zmb_spitter_scratch_03.wav",
+      "duration_sec": 0.5039,
+      "peak_db": -1.0,
+      "rms_db": -16.763,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_spitter_scream_far_01",
+      "base": "zmb_spitter_scream_far",
+      "path": "Assets/Audio/Zombies/zmb_spitter_scream_far_01.wav",
+      "duration_sec": 1.7492,
+      "peak_db": -1.0,
+      "rms_db": -13.982,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_spitter_scream_far_02",
+      "base": "zmb_spitter_scream_far",
+      "path": "Assets/Audio/Zombies/zmb_spitter_scream_far_02.wav",
+      "duration_sec": 1.6715,
+      "peak_db": -1.0,
+      "rms_db": -14.396,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_spitter_scream_far_03",
+      "base": "zmb_spitter_scream_far",
+      "path": "Assets/Audio/Zombies/zmb_spitter_scream_far_03.wav",
+      "duration_sec": 1.6698,
+      "peak_db": -1.0,
+      "rms_db": -15.549,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_walker_attack_01",
+      "base": "zmb_walker_attack",
+      "path": "Assets/Audio/Zombies/zmb_walker_attack_01.wav",
+      "duration_sec": 0.6886,
+      "peak_db": -1.0,
+      "rms_db": -15.804,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_walker_attack_02",
+      "base": "zmb_walker_attack",
+      "path": "Assets/Audio/Zombies/zmb_walker_attack_02.wav",
+      "duration_sec": 0.7534,
+      "peak_db": -1.0,
+      "rms_db": -15.338,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_walker_attack_03",
+      "base": "zmb_walker_attack",
+      "path": "Assets/Audio/Zombies/zmb_walker_attack_03.wav",
+      "duration_sec": 0.7116,
+      "peak_db": -1.0,
+      "rms_db": -16.071,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_walker_bone_01",
+      "base": "zmb_walker_bone",
+      "path": "Assets/Audio/Zombies/zmb_walker_bone_01.wav",
+      "duration_sec": 0.4844,
+      "peak_db": -1.0,
+      "rms_db": -14.381,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_walker_bone_02",
+      "base": "zmb_walker_bone",
+      "path": "Assets/Audio/Zombies/zmb_walker_bone_02.wav",
+      "duration_sec": 0.5568,
+      "peak_db": -1.0,
+      "rms_db": -15.383,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_walker_bone_03",
+      "base": "zmb_walker_bone",
+      "path": "Assets/Audio/Zombies/zmb_walker_bone_03.wav",
+      "duration_sec": 0.551,
+      "peak_db": -1.0,
+      "rms_db": -15.04,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_walker_breath_01",
+      "base": "zmb_walker_breath",
+      "path": "Assets/Audio/Zombies/zmb_walker_breath_01.wav",
+      "duration_sec": 1.1112,
+      "peak_db": -1.0,
+      "rms_db": -14.587,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_walker_breath_02",
+      "base": "zmb_walker_breath",
+      "path": "Assets/Audio/Zombies/zmb_walker_breath_02.wav",
+      "duration_sec": 1.1996,
+      "peak_db": -1.0,
+      "rms_db": -14.401,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_walker_breath_03",
+      "base": "zmb_walker_breath",
+      "path": "Assets/Audio/Zombies/zmb_walker_breath_03.wav",
+      "duration_sec": 1.1999,
+      "peak_db": -1.0,
+      "rms_db": -13.776,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_walker_death_01",
+      "base": "zmb_walker_death",
+      "path": "Assets/Audio/Zombies/zmb_walker_death_01.wav",
+      "duration_sec": 1.3767,
+      "peak_db": -1.0,
+      "rms_db": -17.769,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_walker_death_02",
+      "base": "zmb_walker_death",
+      "path": "Assets/Audio/Zombies/zmb_walker_death_02.wav",
+      "duration_sec": 1.4072,
+      "peak_db": -1.0,
+      "rms_db": -16.54,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_walker_death_03",
+      "base": "zmb_walker_death",
+      "path": "Assets/Audio/Zombies/zmb_walker_death_03.wav",
+      "duration_sec": 1.4437,
+      "peak_db": -1.0,
+      "rms_db": -17.201,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_walker_scratch_01",
+      "base": "zmb_walker_scratch",
+      "path": "Assets/Audio/Zombies/zmb_walker_scratch_01.wav",
+      "duration_sec": 0.5849,
+      "peak_db": -1.0,
+      "rms_db": -16.049,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_walker_scratch_02",
+      "base": "zmb_walker_scratch",
+      "path": "Assets/Audio/Zombies/zmb_walker_scratch_02.wav",
+      "duration_sec": 0.5202,
+      "peak_db": -1.0,
+      "rms_db": -17.116,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_walker_scratch_03",
+      "base": "zmb_walker_scratch",
+      "path": "Assets/Audio/Zombies/zmb_walker_scratch_03.wav",
+      "duration_sec": 0.5687,
+      "peak_db": -1.0,
+      "rms_db": -15.834,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_walker_scream_far_01",
+      "base": "zmb_walker_scream_far",
+      "path": "Assets/Audio/Zombies/zmb_walker_scream_far_01.wav",
+      "duration_sec": 1.757,
+      "peak_db": -1.0,
+      "rms_db": -12.674,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_walker_scream_far_02",
+      "base": "zmb_walker_scream_far",
+      "path": "Assets/Audio/Zombies/zmb_walker_scream_far_02.wav",
+      "duration_sec": 1.6725,
+      "peak_db": -1.0,
+      "rms_db": -12.91,
+      "is_loop": false,
+      "seam_delta": 0.0
+    },
+    {
+      "category": "Zombies",
+      "stem": "zmb_walker_scream_far_03",
+      "base": "zmb_walker_scream_far",
+      "path": "Assets/Audio/Zombies/zmb_walker_scream_far_03.wav",
+      "duration_sec": 1.7682,
+      "peak_db": -1.0,
+      "rms_db": -13.144,
+      "is_loop": false,
+      "seam_delta": 0.0
+    }
+  ]
+}

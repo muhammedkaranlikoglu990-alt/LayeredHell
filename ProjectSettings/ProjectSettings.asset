@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!129 &1
+PlayerSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 26
+  productGUID: 45454545454545454545454545454545
+  AndroidProfiler: 0
+  AndroidFilterTouchesWhenObscured: 0
+  AndroidEnableSustainedPerformanceMode: 1
+  defaultScreenOrientation: 3
+  targetDevice: 2
+  useOnDemandResources: 0
+  accelerometerFrequency: 60
+  companyName: AethelVanguardStudios
+  productName: "45: Layered Hell"
+  defaultCursor: {fileID: 0}
+  cursorHotspot: {x: 0, y: 0}
+  m_SplashScreenBackgroundColor: {r: 0.03, g: 0.04, b: 0.05, a: 1}
+  m_ShowUnitySplashScreen: 0
+  m_ShowUnitySplashLogo: 0
+  defaultScreenWidth: 1920
+  defaultScreenHeight: 1080
+  m_StereoRenderingPath: 0
+  m_ActiveColorSpace: 1
+  m_MTRendering: 1
+  mipStripping: 0
+  numberOfMipsStripped: 0
+  allowedAutorotateToPortrait: 0
+  allowedAutorotateToPortraitUpsideDown: 0
+  allowedAutorotateToLandscapeRight: 1
+  allowedAutorotateToLandscapeLeft: 1
+  useOSAutorotation: 1
+  bundleVersion: 1.0.0
+  prebakeCollisionMeshes: 1
+  gpuSkinning: 1
+  visibleInBackground: 1
+  allowFullscreenSwitch: 1
+  fullscreenMode: 1
+  maxAspectRatio: 2.4
+  AndroidBundleVersionCode: 1
+  AndroidMinSdkVersion: 29
+  AndroidTargetSdkVersion: 35
+  AndroidPreferredInstallLocation: 1
+  stripEngineCode: 1
+  keepLoadedShadersAlive: 1
+  StripUnusedMeshComponents: 1
+  VertexChannelCompressionMask: 4054
+  m_BuildTargetBatching:
+  - m_BuildTarget: Android
+    m_StaticBatching: 1
+    m_DynamicBatching: 0
+  - m_BuildTarget: Standalone
+    m_StaticBatching: 1
+    m_DynamicBatching: 0
+  scriptingBackend:
+    Android: 1
+    Standalone: 1
+  defaultInterfaceOrientation: 3
+  applicationIdentifier:
+    Android: com.aethelvanguard.layeredhell45
+    Standalone: com.aethelvanguard.layeredhell45
+  AndroidTargetArchitectures: 2
+  AndroidEnableArmv9SecurityFeatures: 1
+  AndroidBuildApkPerCpuArchitecture: 0
+  AndroidIsGame: 1
+  androidFullscreenMode: 1
+  androidAutoRotationBehavior: 1
+  androidPredictiveBackSupport: 1
+  androidApplicationEntry: 2
+  defaultIsNativeResolution: 1
+  runInBackground: 1
+  bakeCollisionMeshes: 1
+  targetFrameRate: 60
+  mobileMTRendering:
+    Android: 1
+  activeInputHandler: 2
+  projectName: "45: Layered Hell"
+  organizationId: AethelVanguardStudios
